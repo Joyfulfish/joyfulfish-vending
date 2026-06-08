@@ -359,22 +359,34 @@ function submitToLine() {
     message += `總計：NT$ ${totalPrice.toLocaleString()}\n\n`;
     message += '※ 此為詢價單，實際價格以店家確認為準';
 
-    // 跳轉到 LINE
-    const lineMessage = encodeURIComponent(message);
-    const lineUrl = `https://line.me/R/ti/p/@joyfulfish`;
+    // 嘗試複製訊息到剪貼簿
+    let copySuccess = false;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        try {
+            // 同步複製（在開啟 LINE 之前）
+            navigator.clipboard.writeText(message);
+            copySuccess = true;
+        } catch (e) {
+            // 忽略錯誤
+        }
+    }
 
     // 先清空購物車
     cart = [];
     updateCartBadge();
     toggleCart();
 
-    // 開啟 LINE
+    // 開啟 LINE（不帶訊息，避免 URL 太長）
+    const lineUrl = `https://line.me/R/ti/p/@joyfulfish`;
     window.open(lineUrl, '_blank');
 
-    // 複製訊息到剪貼簿
-    navigator.clipboard.writeText(message).then(() => {
-        showToast('📋 訊息已複製，請貼到 LINE 傳送給店家');
-    });
+    // 顯示提示
+    if (copySuccess) {
+        showToast('📋 訊息已複製！請貼到 LINE 傳送給店家');
+    } else {
+        // 手動複製的備用方案
+        showToast('✅ 已開啟 LINE，請手動輸入詢價內容');
+    }
 }
 
 // 訪客統計
