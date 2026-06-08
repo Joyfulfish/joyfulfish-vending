@@ -339,54 +339,100 @@ function removeFromCart(index) {
 function submitToLine() {
     if (cart.length === 0) return;
 
-    // 生成極簡訊息（確保能帶到 LINE）
-    let items = [];
-    let total = 0;
+    // 生成訂單訊息
+    let message = '🐟 魚樂匯詢價\n\n';
 
-    cart.forEach((item) => {
+    cart.forEach((item, index) => {
         const groupLabels = ['A組', 'B組', 'C組'];
         const groupLabel = item.product.tiers.length > 1
-            ? groupLabels[item.tierIndex] || ''
+            ? ` ${groupLabels[item.tierIndex] || (item.tierIndex + 1) + '組'}`
             : '';
 
-        // 極簡格式：品名 組別 數量 價格
-        const itemText = `${item.product.name}${groupLabel ? ' ' + groupLabel : ''} ${item.tier.quantity}隻×${item.quantity}組`;
-        items.push(itemText);
-        total += item.tier.total_price * item.quantity;
+        message += `${index + 1}. ${item.product.name}${groupLabel}\n`;
+        message += `   ${item.tier.quantity}隻 × ${item.quantity} = $${(item.tier.total_price * item.quantity).toLocaleString()}\n\n`;
     });
 
-    // 組合訊息 - 使用最短格式
-    const message = `魚樂匯詢價\n${items.join('\n')}\n共${total}元`;
+    const totalPrice = cart.reduce((sum, item) => sum + (item.tier.total_price * item.quantity), 0);
+    message += `總計：NT$ ${totalPrice.toLocaleString()}`;
 
-    // 清空購物車
-    cart = [];
-    updateCartBadge();
-    toggleCart();
+    // 嘗試複製到剪貼簿
+    let copySuccess = false;
 
-    // 嘗試多種 URL 格式
-    const encodedMessage = encodeURIComponent(message);
+    // 方法1：使用 Clipboard API
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(message).then(() => {
+            copySuccess = true;
+            openLineWithNotice();
+        }).catch(() => {
+            // 失敗則用方法2
+            copySuccess = tryLegacyCopy(message);
+            openLineWithNotice();
+        });
+    } else {
+        // 方法2：使用舊式複製
+        copySuccess = tryLegacyCopy(message);
+        openLineWithNotice();
+    }
 
-    // 方法1：使用 line:// scheme（優先，直接開 app）
-    const lineSchemeUrl = `line://msg/text/${encodedMessage}`;
-
-    // 方法2：使用 https 格式（備用）
-    const httpsUrl = `https://line.me/R/msg/text/?${encodedMessage}`;
-
-    // 方法3：帶 text 參數到官方帳號
-    const officialUrl = `https://line.me/R/ti/p/@joyfulfish?text=${encodedMessage}`;
-
-    // 先試 line:// scheme
-    window.location.href = lineSchemeUrl;
-
-    // 如果 0.5 秒後還在頁面上，改用 https（備用方案）
-    setTimeout(() => {
+    function tryLegacyCopy(text) {
         try {
-            window.location.href = officialUrl;
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.select();
+            const success = document.execCommand('copy');
+            document.body.removeChild(textarea);
+            return success;
         } catch (e) {
-            // 如果都失敗，顯示訊息
-            alert('請複製以下訊息：\n\n' + message);
+            return false;
         }
-    }, 500);
+    }
+
+    function openLineWithNotice() {
+        // 清空購物車
+        cart = [];
+        updateCartBadge();
+        toggleCart();
+
+        // 顯示友善的提示
+        const notification = document.createElement('div');
+        notification.innerHTML = `
+            <div style="
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: white;
+                padding: 2rem;
+                border-radius: 12px;
+                box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+                z-index: 10000;
+                text-align: center;
+                max-width: 320px;
+            ">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">✅</div>
+                <div style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; color: #2d3748;">
+                    訊息已複製！
+                </div>
+                <div style="font-size: 0.95rem; color: #718096; line-height: 1.6;">
+                    即將開啟 LINE<br>
+                    請在對話框<strong>長按貼上</strong>傳送
+                </div>
+                <div style="margin-top: 1.5rem; font-size: 0.85rem; color: #a0aec0;">
+                    2 秒後自動開啟...
+                </div>
+            </div>
+        `;
+        document.body.appendChild(notification);
+
+        // 2 秒後開啟 LINE 並移除提示
+        setTimeout(() => {
+            notification.remove();
+            window.location.href = 'https://line.me/R/ti/p/@joyfulfish';
+        }, 2000);
+    }
 }
 
 // 顯示訂單預覽
