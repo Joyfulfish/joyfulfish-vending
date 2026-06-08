@@ -356,17 +356,41 @@ function submitToLine() {
     const totalPrice = cart.reduce((sum, item) => sum + (item.tier.total_price * item.quantity), 0);
     message += `總計 $${totalPrice.toLocaleString()}`;
 
+    // 先嘗試複製訊息
+    let copySuccess = false;
+    try {
+        // 創建臨時 textarea 來複製（相容性更好）
+        const textarea = document.createElement('textarea');
+        textarea.value = message;
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        copySuccess = document.execCommand('copy');
+        document.body.removeChild(textarea);
+    } catch (e) {
+        // 忽略錯誤
+    }
+
     // 清空購物車
     cart = [];
     updateCartBadge();
     toggleCart();
 
-    // 直接帶訊息到 LINE（如果太長會自動截斷，但通常都可以）
-    const lineMessage = encodeURIComponent(message);
-    const lineUrl = `https://line.me/R/ti/p/@joyfulfish?text=${lineMessage}`;
+    // 開啟 LINE（不帶訊息，因為訊息已經複製了）
+    const lineUrl = 'https://line.me/R/ti/p/@joyfulfish';
 
-    // 使用 window.location.href 確保在手機上正確跳轉
-    window.location.href = lineUrl;
+    // 顯示提示
+    if (copySuccess) {
+        alert('✅ 訊息已複製！\n\n請在 LINE 對話框長按貼上傳送給店家');
+    } else {
+        alert('⚠️ 請手動複製以下訊息：\n\n' + message);
+    }
+
+    // 延遲開啟 LINE，讓用戶看到提示
+    setTimeout(() => {
+        window.location.href = lineUrl;
+    }, 100);
 }
 
 // 顯示訂單預覽
