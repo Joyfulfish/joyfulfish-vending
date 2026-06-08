@@ -355,30 +355,8 @@ function submitToLine() {
     const totalPrice = cart.reduce((sum, item) => sum + (item.tier.total_price * item.quantity), 0);
     message += `總計：NT$ ${totalPrice.toLocaleString()}`;
 
-    // 先嘗試複製到剪貼簿
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(message).then(() => {
-            // 複製成功，顯示訊息並開啟 LINE
-            showToast('✅ 訊息已複製到剪貼簿！');
-
-            // 清空購物車
-            cart = [];
-            updateCartBadge();
-            toggleCart();
-
-            // 延遲 500ms 後開啟 LINE
-            setTimeout(() => {
-                window.open('https://line.me/R/ti/p/@joyfulfish', '_blank');
-                showToast('📱 請在 LINE 中貼上訊息');
-            }, 500);
-        }).catch(() => {
-            // 複製失敗，顯示預覽介面
-            showOrderPreview(message);
-        });
-    } else {
-        // 不支援剪貼簿 API，顯示預覽介面
-        showOrderPreview(message);
-    }
+    // 顯示訂單確認畫面
+    showOrderPreview(message);
 }
 
 // 顯示訂單預覽
@@ -389,68 +367,160 @@ function showOrderPreview(message) {
     // 替換內容為訊息預覽
     content.innerHTML = `
         <div class="cart-header">
-            <h2>詢價清單</h2>
+            <h2>📋 詢價清單</h2>
             <button class="cart-close" onclick="closeOrderPreview()">✕</button>
         </div>
         <div class="cart-items" style="padding: 1.5rem;">
             <div style="
-                background: var(--bg-primary);
+                background: #f8f9fa;
                 padding: 1.5rem;
-                border-radius: var(--radius);
-                border: 1px solid var(--border-light);
+                border-radius: 12px;
+                border: 2px solid #e9ecef;
                 white-space: pre-wrap;
-                font-family: monospace;
-                font-size: 0.9rem;
-                line-height: 1.6;
-                max-height: 50vh;
+                font-size: 0.95rem;
+                line-height: 1.8;
+                max-height: 45vh;
                 overflow-y: auto;
-            " id="orderMessage">${message}</div>
+                cursor: pointer;
+                user-select: text;
+                -webkit-user-select: text;
+            " id="orderMessage" onclick="selectMessage()">${message}</div>
             <div style="
-                margin-top: 1rem;
-                padding: 1rem;
-                background: #fff9f5;
-                border-left: 3px solid var(--accent-orange);
-                border-radius: 6px;
+                margin-top: 1.5rem;
+                padding: 1.2rem;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                border-radius: 12px;
                 font-size: 0.9rem;
-                color: var(--text-secondary);
+                text-align: center;
+                line-height: 1.6;
             ">
-                💡 請長按上方訊息複製，然後點擊下方按鈕開啟 LINE 貼上傳送
+                <div style="font-size: 1.2rem; margin-bottom: 0.5rem;">✨ 使用說明</div>
+                <div style="opacity: 0.95;">
+                    <strong>方法1（推薦）:</strong> 點擊「複製訊息並開啟 LINE」一鍵完成<br>
+                    <strong>方法2:</strong> 先點「只複製」再點「只開啟」分步操作<br>
+                    <strong>最後:</strong> 在 LINE 對話框中「長按 → 貼上」並傳送
+                </div>
             </div>
         </div>
-        <div class="cart-footer">
-            <button class="cart-submit-btn" onclick="copyAndOpenLine()" style="margin-bottom: 0.8rem;">
-                📋 複製訊息
+        <div class="cart-footer" style="gap: 0.8rem; display: flex; flex-direction: column;">
+            <button class="cart-submit-btn" onclick="copyAndOpenLine()"
+                style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); font-size: 1.05rem; padding: 1rem;">
+                ✨ 複製訊息並開啟 LINE
             </button>
-            <button class="cart-submit-btn" onclick="openLineOnly()">
-                📱 開啟 LINE
-            </button>
+            <div style="display: flex; gap: 0.8rem;">
+                <button class="cart-submit-btn" onclick="copyMessage()"
+                    style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); flex: 1; font-size: 0.9rem;">
+                    📋 只複製
+                </button>
+                <button class="cart-submit-btn" onclick="openLineAndClose()"
+                    style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); flex: 1; font-size: 0.9rem;">
+                    💬 只開啟
+                </button>
+            </div>
         </div>
     `;
 }
 
-// 複製並開啟 LINE
-function copyAndOpenLine() {
+// 選取訊息文字
+function selectMessage() {
     const messageEl = document.getElementById('orderMessage');
-    const message = messageEl.textContent;
+    if (window.getSelection) {
+        const selection = window.getSelection();
+        const range = document.createRange();
+        range.selectNodeContents(messageEl);
+        selection.removeAllRanges();
+        selection.addRange(range);
 
-    // 嘗試複製
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(message).then(() => {
-            showToast('✅ 訊息已複製！');
-            // 1 秒後開啟 LINE
-            setTimeout(() => {
-                openLineOnly();
-            }, 1000);
-        }).catch(() => {
-            alert('請長按上方訊息手動複製，然後點擊「開啟 LINE」按鈕');
-        });
-    } else {
-        alert('請長按上方訊息手動複製，然後點擊「開啟 LINE」按鈕');
+        // 如果是移動設備，嘗試顯示複製選項
+        if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+            showToast('📝 已選取文字，請點擊「複製」');
+        }
     }
 }
 
-// 只開啟 LINE
-function openLineOnly() {
+// 複製訊息
+function copyMessage() {
+    const messageEl = document.getElementById('orderMessage');
+    const message = messageEl.textContent;
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(message).then(() => {
+            // 改變按鈕樣式表示已複製
+            const btn = event.target;
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '✅ 已複製';
+            btn.style.background = 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)';
+
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.style.background = 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)';
+            }, 2000);
+
+            showToast('✅ 訊息已複製到剪貼簿！');
+        }).catch(() => {
+            // 複製失敗，選取文字讓用戶手動複製
+            selectMessage();
+            alert('請長按選取的文字，然後點擊「複製」');
+        });
+    } else {
+        // 不支援自動複製，選取文字
+        selectMessage();
+        showToast('📝 請長按文字選擇「複製」');
+    }
+}
+
+// 複製並開啟 LINE（一鍵完成 - 使用跟在庫網站相同的方式）
+async function copyAndOpenLine() {
+    const messageEl = document.getElementById('orderMessage');
+    const message = messageEl.textContent;
+
+    // 先複製到剪貼簿（跟在庫網站一樣）
+    const copied = await copyToClipboardFallback(message);
+
+    // 關閉購物車彈窗
+    closeOrderPreview();
+
+    // 清空購物車
+    cart = [];
+    updateCartBadge();
+
+    // 使用 LINE OA Message 格式，訊息會自動帶入（跟在庫網站完全一樣）
+    const LINE_OA_ID = '@joyfulfish';
+    const url = `https://line.me/R/oaMessage/${encodeURIComponent(LINE_OA_ID)}/?${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+
+    // 提示訊息
+    showToast(copied
+        ? '✅ 已開啟 LINE — 訂單已自動帶入或已複製到剪貼簿'
+        : '✅ 已開啟 LINE — 請手動貼上訂單');
+}
+
+// 複製到剪貼簿（含後備方案）
+async function copyToClipboardFallback(text) {
+    try {
+        await navigator.clipboard.writeText(text);
+        return true;
+    } catch (e) {
+        // 後備：用隱藏 textarea + execCommand
+        try {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.position = 'fixed';
+            ta.style.left = '-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            const ok = document.execCommand('copy');
+            document.body.removeChild(ta);
+            return ok;
+        } catch (e2) {
+            return false;
+        }
+    }
+}
+
+// 開啟 LINE 並清空購物車
+function openLineAndClose() {
     // 清空購物車
     cart = [];
     updateCartBadge();
@@ -458,10 +528,18 @@ function openLineOnly() {
     // 關閉彈窗
     closeOrderPreview();
 
-    // 開啟 LINE
-    window.open('https://line.me/R/ti/p/@joyfulfish', '_blank');
+    // 檢測是否為移動設備
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-    showToast('📱 請在 LINE 中貼上剛才複製的訊息');
+    if (isMobile) {
+        // 移動設備：直接跳轉開啟 LINE App
+        window.location.href = 'https://line.me/R/ti/p/@joyfulfish';
+    } else {
+        // 桌面：新視窗開啟
+        window.open('https://line.me/R/ti/p/@joyfulfish', '_blank');
+    }
+
+    showToast('💬 請在 LINE 中貼上訊息');
 }
 
 // 關閉訂單預覽
