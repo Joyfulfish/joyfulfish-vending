@@ -361,18 +361,12 @@ function submitToLine() {
     updateCartBadge();
     toggleCart();
 
-    // 檢查訊息長度
-    if (message.length > 500) {
-        // 訊息太長，顯示預覽讓用戶複製
-        showOrderPreview(message);
-    } else {
-        // 訊息不長，直接帶到 LINE
-        const lineMessage = encodeURIComponent(message);
-        const lineUrl = `https://line.me/R/ti/p/@joyfulfish?text=${lineMessage}`;
-        window.location.href = lineUrl;
+    // 直接帶訊息到 LINE（如果太長會自動截斷，但通常都可以）
+    const lineMessage = encodeURIComponent(message);
+    const lineUrl = `https://line.me/R/ti/p/@joyfulfish?text=${lineMessage}`;
 
-        showToast('📱 正在開啟 LINE...');
-    }
+    // 使用 window.location.href 確保在手機上正確跳轉
+    window.location.href = lineUrl;
 }
 
 // 顯示訂單預覽
