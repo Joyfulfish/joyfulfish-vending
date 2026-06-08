@@ -339,28 +339,40 @@ function removeFromCart(index) {
 function submitToLine() {
     if (cart.length === 0) return;
 
-    // 生成訂單訊息
-    let message = '🐟 魚樂匯 詢價清單\n\n';
+    // 生成簡化的訂單訊息（避免 URL 太長）
+    let message = '🐟 魚樂匯詢價\n\n';
 
     cart.forEach((item, index) => {
         const groupLabels = ['A組', 'B組', 'C組'];
         const groupLabel = item.product.tiers.length > 1
-            ? (groupLabels[item.tierIndex] || `${item.tierIndex + 1}組`)
+            ? ` ${groupLabels[item.tierIndex] || (item.tierIndex + 1) + '組'}`
             : '';
 
-        message += `${index + 1}. ${item.product.name}\n`;
-        if (item.product.size) message += `   規格：${item.product.size}\n`;
-        if (groupLabel) message += `   組別：${groupLabel}\n`;
-        message += `   數量：${item.tier.quantity} 隻 × ${item.quantity}\n`;
-        message += `   小計：NT$ ${(item.tier.total_price * item.quantity).toLocaleString()}\n\n`;
+        // 簡化格式
+        message += `${index + 1}. ${item.product.name}${groupLabel}\n`;
+        message += `${item.tier.quantity}隻×${item.quantity} = $${(item.tier.total_price * item.quantity).toLocaleString()}\n\n`;
     });
 
     const totalPrice = cart.reduce((sum, item) => sum + (item.tier.total_price * item.quantity), 0);
-    message += `總計：NT$ ${totalPrice.toLocaleString()}\n\n`;
-    message += '※ 此為詢價單，實際價格以店家確認為準';
+    message += `總計 $${totalPrice.toLocaleString()}`;
 
-    // 顯示訊息預覽彈窗
-    showOrderPreview(message);
+    // 清空購物車
+    cart = [];
+    updateCartBadge();
+    toggleCart();
+
+    // 檢查訊息長度
+    if (message.length > 500) {
+        // 訊息太長，顯示預覽讓用戶複製
+        showOrderPreview(message);
+    } else {
+        // 訊息不長，直接帶到 LINE
+        const lineMessage = encodeURIComponent(message);
+        const lineUrl = `https://line.me/R/ti/p/@joyfulfish?text=${lineMessage}`;
+        window.location.href = lineUrl;
+
+        showToast('📱 正在開啟 LINE...');
+    }
 }
 
 // 顯示訂單預覽
