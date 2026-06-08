@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魚樂匯 水族販賣機 | 線上選購 階梯優惠</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* 日式淺色風格配色 */
+            --bg-primary: #faf8f3;        /* 淺米白背景 */
+            --bg-card: #ffffff;           /* 純白卡片 */
+            --text-primary: #2d3748;      /* 深墨文字 */
+            --text-secondary: #718096;    /* 柔灰文字 */
+            --border-light: #e2e8f0;      /* 淺灰邊框 */
+            --accent-blue: #4a6fa5;       /* 靛藍強調色 */
+            --accent-orange: #e67e22;     /* 橘色提示 */
+            --accent-green: #48bb78;      /* 綠色成功 */
+            --shadow-sm: 0 2px 8px rgba(45,55,72,0.04);
+            --shadow-md: 0 4px 16px rgba(45,55,72,0.08);
+            --shadow-lg: 0 8px 24px rgba(45,55,72,0.12);
+            --radius: 10px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Zen Maru Gothic', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        /* Header 區域 */
+        header {
+            background: var(--bg-card);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-section img {
+            width: 200px;
+            height: auto;
+        }
+
+        .brand-title {
+            text-align: center;
+        }
+
+        .brand-title h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            margin-bottom: 0.3rem;
+        }
+
+        .brand-title p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .qr-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            position: relative;
+        }
+
+        .qr-section img {
+            width: 120px;
+            height: 120px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* 購物車按鈕 */
+        .cart-btn {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cart-btn:hover {
+            background: #3d5a85;
+            transform: scale(1.1);
+        }
+
+        .cart-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #e74c3c;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+
+        /* 購物車彈窗 */
+        .cart-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cart-modal.active {
+            display: flex;
+        }
+
+        .cart-content {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .cart-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cart-header h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .cart-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-secondary);
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+
+        .cart-close:hover {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        .cart-items {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+        }
+
+        .cart-item {
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius);
+            margin-bottom: 1rem;
+            background: var(--bg-primary);
+        }
+
+        .cart-item-image {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 6px;
+            background: var(--border-light);
+        }
+
+        .cart-item-info {
+            flex: 1;
+        }
+
+        .cart-item-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.3rem;
+        }
+
+        .cart-item-spec {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .cart-item-controls {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cart-qty-btn {
+            width: 28px;
+            height: 28px;
+            border: 1px solid var(--border-light);
+            background: white;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-primary);
+            transition: all 0.3s;
+        }
+
+        .cart-qty-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .cart-qty {
+            min-width: 40px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .cart-item-price {
+            text-align: right;
+        }
+
+        .cart-item-total {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            margin-bottom: 0.3rem;
+        }
+
+        .cart-item-delete {
+            font-size: 0.8rem;
+            color: #e74c3c;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .cart-item-delete:hover {
+            color: #c0392b;
+        }
+
+        .cart-empty {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-secondary);
+        }
+
+        .cart-empty-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .cart-footer {
+            padding: 1.5rem;
+            border-top: 1px solid var(--border-light);
+        }
+
+        .cart-total {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .cart-submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: #06c755;
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .cart-submit-btn:hover {
+            background: #05b34c;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .cart-submit-btn:disabled {
+            background: var(--text-secondary);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .line-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.7rem 1.5rem;
+            background: #06c755;
+            color: white;
+            text-decoration: none;
+            border-radius: var(--radius);
+            font-weight: 500;
+            transition: all 0.3s;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .line-btn:hover {
+            background: #05b34c;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* 分類按鈕 */
+        .filter-bar {
+            background: var(--bg-card);
+            padding: 1rem 2rem;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 90;
+        }
+
+        .filter-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            padding: 0.6rem 1.5rem;
+            background: var(--bg-primary);
+            border: 2px solid var(--border-light);
+            border-radius: 25px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .filter-btn.active {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        /* 商品列表 */
+        .products-container {
+            max-width: 1400px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        /* 商品卡片 */
+        .product-card {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .product-card.sold-out {
+            opacity: 0.7;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            background: var(--bg-primary);
+        }
+
+        .product-info {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 0.8rem;
+        }
+
+        .product-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            flex: 1;
+        }
+
+        .product-badge {
+            font-size: 1.2rem;
+            margin-left: 0.5rem;
+        }
+
+        .product-size {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .product-note {
+            font-size: 0.85rem;
+            color: var(--accent-orange);
+            display: inline;
+            margin-left: 0.5rem;
+        }
+
+        .product-note::before {
+            content: "｜";
+            margin-right: 0.5rem;
+            color: var(--border-light);
+        }
+
+        /* 階梯定價選擇器 - A組/B組/C組樣式 */
+        .tier-selector {
+            margin: 1rem 0;
+        }
+
+        .tier-groups {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .tier-group {
+            border: 2px solid var(--border-light);
+            border-radius: var(--radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: var(--bg-card);
+        }
+
+        .tier-group:hover {
+            border-color: var(--accent-blue);
+            box-shadow: var(--shadow-md);
+        }
+
+        .tier-group.selected {
+            border-color: var(--accent-blue);
+            background: rgba(74, 111, 165, 0.05);
+            box-shadow: var(--shadow-md);
+        }
+
+        .tier-group-header {
+            background: var(--bg-primary);
+            padding: 0.4rem 0.9rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .tier-group.selected .tier-group-header {
+            background: var(--accent-blue);
+        }
+
+        .tier-group-label {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .tier-group.selected .tier-group-label {
+            color: white;
+        }
+
+        .tier-group-moq {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .tier-group.selected .tier-group-moq {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .tier-group-content {
+            padding: 0.5rem 0.9rem;
+        }
+
+        .tier-group-price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .tier-group-price {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+
+        .tier-group-avg {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        /* 單一價格顯示 */
+        .single-price {
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .price {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+
+        .sold-out-badge {
+            background: var(--text-secondary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        /* 訂購按鈕 */
+        .order-btn {
+            width: 100%;
+            padding: 1rem;
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: auto;
+        }
+
+        .order-btn:hover {
+            background: #3d5a85;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* 響應式設計 */
+        @media (max-width: 768px) {
+            .header-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 1.5rem;
+            }
+
+            .logo-section img {
+                width: 160px;
+            }
+
+            .qr-section img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .products-grid {
+                grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+                gap: 1.5rem;
+            }
+
+            .filter-container {
+                padding: 0;
+            }
+
+            .filter-btn {
+                font-size: 0.85rem;
+                padding: 0.5rem 1rem;
+            }
+        }
+
+        /* 載入動畫 */
+        .loading {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-secondary);
+        }
+
+        .loading::after {
+            content: '...';
+            animation: dots 1.5s steps(3, end) infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideOut {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+        }
+
+        /* Footer 訪客統計 */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-light);
+            padding: 2rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .visitor-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            font-family: 'Courier New', monospace;
+        }
+
+        .footer-divider {
+            height: 1px;
+            background: var(--border-light);
+            max-width: 600px;
+            margin: 1.5rem auto;
+        }
+
+        .footer-text {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .visitor-stats {
+                gap: 2rem;
+            }
+
+            .stat-value {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="logo.png" alt="魚樂匯 Logo">
+            </div>
+            <div class="brand-title">
+                <h1>魚樂匯 水族販賣機</h1>
+                <p>精選水族商品 · 階梯優惠 · 一次購足</p>
+            </div>
+            <div class="qr-section">
+                <img src="line_qrcode.png" alt="LINE QR Code">
+                <a href="https://line.me/R/ti/p/@joyfulfish" class="line-btn" target="_blank">
+                    <span>📱</span>
+                    <span>加入 LINE 訂購</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 分類篩選 -->
+    <div class="filter-bar">
+        <div class="filter-container" id="filterContainer">
+            <button class="filter-btn active" data-category="全部">全部商品</button>
+        </div>
+    </div>
+
+    <!-- 商品列表 -->
+    <div class="products-container">
+        <div class="products-grid" id="productsGrid">
+            <div class="loading">載入商品中</div>
+        </div>
+    </div>
+
+    <!-- 購物車浮動按鈕 -->
+    <button class="cart-btn" onclick="toggleCart()">
+        🛒
+        <span class="cart-badge" id="cartBadge" style="display: none;">0</span>
+    </button>
+
+    <!-- 購物車彈窗 -->
+    <div class="cart-modal" id="cartModal" onclick="closeCartOnBackdrop(event)">
+        <div class="cart-content" onclick="event.stopPropagation()">
+            <div class="cart-header">
+                <h2>詢價清單</h2>
+                <button class="cart-close" onclick="toggleCart()">✕</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <div class="cart-empty">
+                    <div class="cart-empty-icon">🛒</div>
+                    <p>購物車是空的</p>
+                    <p style="font-size: 0.9rem; margin-top: 0.5rem;">快去選購商品吧！</p>
+                </div>
+            </div>
+            <div class="cart-footer" id="cartFooter" style="display: none;">
+                <div class="cart-total">
+                    <span>總計</span>
+                    <span id="cartTotalPrice">NT$ 0</span>
+                </div>
+                <button class="cart-submit-btn" onclick="submitToLine()">
+                    📱 送出至 LINE 詢價
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer 訪客統計 -->
+    <footer>
+        <div class="visitor-stats">
+            <div class="stat-item">
+                <div class="stat-label">👁️ 當前在線人數</div>
+                <div class="stat-value" id="onlineVisitors">-</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">📊 總瀏覽次數</div>
+                <div class="stat-value" id="totalViews">-</div>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-text">
+            © 2026 魚樂匯 JoyfulFish · 精選水族商品
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
