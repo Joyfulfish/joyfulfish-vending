@@ -355,84 +355,20 @@ function submitToLine() {
     const totalPrice = cart.reduce((sum, item) => sum + (item.tier.total_price * item.quantity), 0);
     message += `總計：NT$ ${totalPrice.toLocaleString()}`;
 
-    // 嘗試複製到剪貼簿
-    let copySuccess = false;
+    // 清空購物車
+    cart = [];
+    updateCartBadge();
+    toggleCart();
 
-    // 方法1：使用 Clipboard API
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(message).then(() => {
-            copySuccess = true;
-            openLineWithNotice();
-        }).catch(() => {
-            // 失敗則用方法2
-            copySuccess = tryLegacyCopy(message);
-            openLineWithNotice();
-        });
-    } else {
-        // 方法2：使用舊式複製
-        copySuccess = tryLegacyCopy(message);
-        openLineWithNotice();
-    }
+    // 使用 LINE OA Message API（會自動帶訊息到對話框）
+    const LINE_OA_ID = '@joyfulfish';
+    const url = `https://line.me/R/oaMessage/${encodeURIComponent(LINE_OA_ID)}/?${encodeURIComponent(message)}`;
 
-    function tryLegacyCopy(text) {
-        try {
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            textarea.style.position = 'fixed';
-            textarea.style.opacity = '0';
-            document.body.appendChild(textarea);
-            textarea.select();
-            const success = document.execCommand('copy');
-            document.body.removeChild(textarea);
-            return success;
-        } catch (e) {
-            return false;
-        }
-    }
+    // 直接開啟 LINE（訊息會自動帶入）
+    window.location.href = url;
 
-    function openLineWithNotice() {
-        // 清空購物車
-        cart = [];
-        updateCartBadge();
-        toggleCart();
-
-        // 顯示友善的提示
-        const notification = document.createElement('div');
-        notification.innerHTML = `
-            <div style="
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background: white;
-                padding: 2rem;
-                border-radius: 12px;
-                box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-                z-index: 10000;
-                text-align: center;
-                max-width: 320px;
-            ">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">✅</div>
-                <div style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; color: #2d3748;">
-                    訊息已複製！
-                </div>
-                <div style="font-size: 0.95rem; color: #718096; line-height: 1.6;">
-                    即將開啟 LINE<br>
-                    請在對話框<strong>長按貼上</strong>傳送
-                </div>
-                <div style="margin-top: 1.5rem; font-size: 0.85rem; color: #a0aec0;">
-                    2 秒後自動開啟...
-                </div>
-            </div>
-        `;
-        document.body.appendChild(notification);
-
-        // 2 秒後開啟 LINE 並移除提示
-        setTimeout(() => {
-            notification.remove();
-            window.location.href = 'https://line.me/R/ti/p/@joyfulfish';
-        }, 2000);
-    }
+    // 簡單提示
+    showToast('📱 正在開啟 LINE...');
 }
 
 // 顯示訂單預覽
