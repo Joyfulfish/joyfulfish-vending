@@ -339,58 +339,54 @@ function removeFromCart(index) {
 function submitToLine() {
     if (cart.length === 0) return;
 
-    // 生成簡化的訂單訊息（避免 URL 太長）
-    let message = '🐟 魚樂匯詢價\n\n';
+    // 生成極簡訊息（確保能帶到 LINE）
+    let items = [];
+    let total = 0;
 
-    cart.forEach((item, index) => {
+    cart.forEach((item) => {
         const groupLabels = ['A組', 'B組', 'C組'];
         const groupLabel = item.product.tiers.length > 1
-            ? ` ${groupLabels[item.tierIndex] || (item.tierIndex + 1) + '組'}`
+            ? groupLabels[item.tierIndex] || ''
             : '';
 
-        // 簡化格式
-        message += `${index + 1}. ${item.product.name}${groupLabel}\n`;
-        message += `${item.tier.quantity}隻×${item.quantity} = $${(item.tier.total_price * item.quantity).toLocaleString()}\n\n`;
+        // 極簡格式：品名 組別 數量 價格
+        const itemText = `${item.product.name}${groupLabel ? ' ' + groupLabel : ''} ${item.tier.quantity}隻×${item.quantity}組`;
+        items.push(itemText);
+        total += item.tier.total_price * item.quantity;
     });
 
-    const totalPrice = cart.reduce((sum, item) => sum + (item.tier.total_price * item.quantity), 0);
-    message += `總計 $${totalPrice.toLocaleString()}`;
-
-    // 先嘗試複製訊息
-    let copySuccess = false;
-    try {
-        // 創建臨時 textarea 來複製（相容性更好）
-        const textarea = document.createElement('textarea');
-        textarea.value = message;
-        textarea.style.position = 'fixed';
-        textarea.style.opacity = '0';
-        document.body.appendChild(textarea);
-        textarea.select();
-        copySuccess = document.execCommand('copy');
-        document.body.removeChild(textarea);
-    } catch (e) {
-        // 忽略錯誤
-    }
+    // 組合訊息 - 使用最短格式
+    const message = `魚樂匯詢價\n${items.join('\n')}\n共${total}元`;
 
     // 清空購物車
     cart = [];
     updateCartBadge();
     toggleCart();
 
-    // 開啟 LINE（不帶訊息，因為訊息已經複製了）
-    const lineUrl = 'https://line.me/R/ti/p/@joyfulfish';
+    // 嘗試多種 URL 格式
+    const encodedMessage = encodeURIComponent(message);
 
-    // 顯示提示
-    if (copySuccess) {
-        alert('✅ 訊息已複製！\n\n請在 LINE 對話框長按貼上傳送給店家');
-    } else {
-        alert('⚠️ 請手動複製以下訊息：\n\n' + message);
-    }
+    // 方法1：使用 line:// scheme（優先，直接開 app）
+    const lineSchemeUrl = `line://msg/text/${encodedMessage}`;
 
-    // 延遲開啟 LINE，讓用戶看到提示
+    // 方法2：使用 https 格式（備用）
+    const httpsUrl = `https://line.me/R/msg/text/?${encodedMessage}`;
+
+    // 方法3：帶 text 參數到官方帳號
+    const officialUrl = `https://line.me/R/ti/p/@joyfulfish?text=${encodedMessage}`;
+
+    // 先試 line:// scheme
+    window.location.href = lineSchemeUrl;
+
+    // 如果 0.5 秒後還在頁面上，改用 https（備用方案）
     setTimeout(() => {
-        window.location.href = lineUrl;
-    }, 100);
+        try {
+            window.location.href = officialUrl;
+        } catch (e) {
+            // 如果都失敗，顯示訊息
+            alert('請複製以下訊息：\n\n' + message);
+        }
+    }, 500);
 }
 
 // 顯示訂單預覽
