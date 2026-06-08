@@ -355,20 +355,30 @@ function submitToLine() {
     const totalPrice = cart.reduce((sum, item) => sum + (item.tier.total_price * item.quantity), 0);
     message += `總計：NT$ ${totalPrice.toLocaleString()}`;
 
-    // 清空購物車
-    cart = [];
-    updateCartBadge();
-    toggleCart();
+    // 先嘗試複製到剪貼簿
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(message).then(() => {
+            // 複製成功，顯示訊息並開啟 LINE
+            showToast('✅ 訊息已複製到剪貼簿！');
 
-    // 使用 LINE OA Message API（會自動帶訊息到對話框）
-    const LINE_OA_ID = '@joyfulfish';
-    const url = `https://line.me/R/oaMessage/${encodeURIComponent(LINE_OA_ID)}/?${encodeURIComponent(message)}`;
+            // 清空購物車
+            cart = [];
+            updateCartBadge();
+            toggleCart();
 
-    // 直接開啟 LINE（訊息會自動帶入）
-    window.location.href = url;
-
-    // 簡單提示
-    showToast('📱 正在開啟 LINE...');
+            // 延遲 500ms 後開啟 LINE
+            setTimeout(() => {
+                window.open('https://line.me/R/ti/p/@joyfulfish', '_blank');
+                showToast('📱 請在 LINE 中貼上訊息');
+            }, 500);
+        }).catch(() => {
+            // 複製失敗，顯示預覽介面
+            showOrderPreview(message);
+        });
+    } else {
+        // 不支援剪貼簿 API，顯示預覽介面
+        showOrderPreview(message);
+    }
 }
 
 // 顯示訂單預覽
