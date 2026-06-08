@@ -359,34 +359,102 @@ function submitToLine() {
     message += `總計：NT$ ${totalPrice.toLocaleString()}\n\n`;
     message += '※ 此為詢價單，實際價格以店家確認為準';
 
-    // 嘗試複製訊息到剪貼簿
-    let copySuccess = false;
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-        try {
-            // 同步複製（在開啟 LINE 之前）
-            navigator.clipboard.writeText(message);
-            copySuccess = true;
-        } catch (e) {
-            // 忽略錯誤
-        }
-    }
+    // 顯示訊息預覽彈窗
+    showOrderPreview(message);
+}
 
-    // 先清空購物車
+// 顯示訂單預覽
+function showOrderPreview(message) {
+    const modal = document.getElementById('cartModal');
+    const content = modal.querySelector('.cart-content');
+
+    // 替換內容為訊息預覽
+    content.innerHTML = `
+        <div class="cart-header">
+            <h2>詢價清單</h2>
+            <button class="cart-close" onclick="closeOrderPreview()">✕</button>
+        </div>
+        <div class="cart-items" style="padding: 1.5rem;">
+            <div style="
+                background: var(--bg-primary);
+                padding: 1.5rem;
+                border-radius: var(--radius);
+                border: 1px solid var(--border-light);
+                white-space: pre-wrap;
+                font-family: monospace;
+                font-size: 0.9rem;
+                line-height: 1.6;
+                max-height: 50vh;
+                overflow-y: auto;
+            " id="orderMessage">${message}</div>
+            <div style="
+                margin-top: 1rem;
+                padding: 1rem;
+                background: #fff9f5;
+                border-left: 3px solid var(--accent-orange);
+                border-radius: 6px;
+                font-size: 0.9rem;
+                color: var(--text-secondary);
+            ">
+                💡 請長按上方訊息複製，然後點擊下方按鈕開啟 LINE 貼上傳送
+            </div>
+        </div>
+        <div class="cart-footer">
+            <button class="cart-submit-btn" onclick="copyAndOpenLine()" style="margin-bottom: 0.8rem;">
+                📋 複製訊息
+            </button>
+            <button class="cart-submit-btn" onclick="openLineOnly()">
+                📱 開啟 LINE
+            </button>
+        </div>
+    `;
+}
+
+// 複製並開啟 LINE
+function copyAndOpenLine() {
+    const messageEl = document.getElementById('orderMessage');
+    const message = messageEl.textContent;
+
+    // 嘗試複製
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(message).then(() => {
+            showToast('✅ 訊息已複製！');
+            // 1 秒後開啟 LINE
+            setTimeout(() => {
+                openLineOnly();
+            }, 1000);
+        }).catch(() => {
+            alert('請長按上方訊息手動複製，然後點擊「開啟 LINE」按鈕');
+        });
+    } else {
+        alert('請長按上方訊息手動複製，然後點擊「開啟 LINE」按鈕');
+    }
+}
+
+// 只開啟 LINE
+function openLineOnly() {
+    // 清空購物車
     cart = [];
     updateCartBadge();
-    toggleCart();
 
-    // 開啟 LINE（不帶訊息，避免 URL 太長）
-    const lineUrl = `https://line.me/R/ti/p/@joyfulfish`;
-    window.open(lineUrl, '_blank');
+    // 關閉彈窗
+    closeOrderPreview();
 
-    // 顯示提示
-    if (copySuccess) {
-        showToast('📋 訊息已複製！請貼到 LINE 傳送給店家');
-    } else {
-        // 手動複製的備用方案
-        showToast('✅ 已開啟 LINE，請手動輸入詢價內容');
-    }
+    // 開啟 LINE
+    window.open('https://line.me/R/ti/p/@joyfulfish', '_blank');
+
+    showToast('📱 請在 LINE 中貼上剛才複製的訊息');
+}
+
+// 關閉訂單預覽
+function closeOrderPreview() {
+    const modal = document.getElementById('cartModal');
+    modal.classList.remove('active');
+
+    // 恢復購物車內容
+    setTimeout(() => {
+        renderCart();
+    }, 300);
 }
 
 // 訪客統計
