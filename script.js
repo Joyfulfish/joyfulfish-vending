@@ -335,8 +335,8 @@ function removeFromCart(index) {
     renderCart();
 }
 
-// 送出至 LINE
-function submitToLine() {
+// 送出至 LINE（一鍵直達，不顯示預覽）
+async function submitToLine() {
     if (cart.length === 0) return;
 
     // 生成訂單訊息
@@ -355,8 +355,41 @@ function submitToLine() {
     const totalPrice = cart.reduce((sum, item) => sum + (item.tier.total_price * item.quantity), 0);
     message += `總計：NT$ ${totalPrice.toLocaleString()}`;
 
-    // 顯示訂單確認畫面
-    showOrderPreview(message);
+    // 直接複製並開啟 LINE（不顯示預覽畫面）
+    // 先複製到剪貼簿（後備方案）
+    const copied = await copyToClipboardFallback(message);
+
+    // 關閉購物車彈窗
+    toggleCart();
+
+    // 清空購物車
+    cart = [];
+    updateCartBadge();
+
+    // 檢測設備類型
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    // 使用 LINE OA Message 格式，訊息會自動帶入
+    const LINE_OA_ID = '@joyfulfish';
+    const url = `https://line.me/R/oaMessage/${encodeURIComponent(LINE_OA_ID)}/?${encodeURIComponent(message)}`;
+
+    // 手機直接跳轉（可喚起 APP），電腦開新視窗
+    if (isMobile) {
+        window.location.href = url;
+    } else {
+        window.open(url, '_blank');
+    }
+
+    // 提示訊息（針對設備類型）
+    if (isMobile) {
+        showToast(copied
+            ? '✅ 正在開啟 LINE — 訊息應已自動帶入'
+            : '✅ 正在開啟 LINE — 請手動貼上訂單');
+    } else {
+        showToast(copied
+            ? '✅ 已開啟 LINE（網頁版）— 請貼上訊息並傳送'
+            : '⚠️ 請在 LINE 對話框中貼上訊息');
+    }
 }
 
 // 顯示訂單預覽
