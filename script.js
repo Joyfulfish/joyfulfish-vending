@@ -359,37 +359,30 @@ async function submitToLine() {
     // 先複製到剪貼簿（後備方案）
     const copied = await copyToClipboardFallback(message);
 
-    // 關閉購物車彈窗
-    toggleCart();
-
-    // 清空購物車
-    cart = [];
-    updateCartBadge();
-
-    // 檢測設備類型
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
     // 使用 LINE OA Message 格式，訊息會自動帶入
     const LINE_OA_ID = '@joyfulfish';
     const url = `https://line.me/R/oaMessage/${encodeURIComponent(LINE_OA_ID)}/?${encodeURIComponent(message)}`;
 
-    // 手機直接跳轉（可喚起 APP），電腦開新視窗
-    if (isMobile) {
-        window.location.href = url;
-    } else {
-        window.open(url, '_blank');
+    // 統一使用 window.open（手機和桌面都適用）
+    // 這樣不會離開當前頁面，避免連線錯誤
+    const lineWindow = window.open(url, '_blank');
+
+    // 檢查是否成功開啟（可能被瀏覽器阻擋）
+    if (!lineWindow || lineWindow.closed || typeof lineWindow.closed == 'undefined') {
+        // 被阻擋了，提示用戶
+        showToast('⚠️ 請允許彈出視窗，或使用下方的「手動開啟」按鈕');
+        return; // 不清空購物車
     }
 
-    // 提示訊息（針對設備類型）
-    if (isMobile) {
-        showToast(copied
-            ? '✅ 正在開啟 LINE — 訊息應已自動帶入'
-            : '✅ 正在開啟 LINE — 請手動貼上訂單');
-    } else {
-        showToast(copied
-            ? '✅ 已開啟 LINE（網頁版）— 請貼上訊息並傳送'
-            : '⚠️ 請在 LINE 對話框中貼上訊息');
-    }
+    // 成功開啟 LINE，關閉購物車並清空
+    toggleCart();
+    cart = [];
+    updateCartBadge();
+
+    // 提示訊息
+    showToast(copied
+        ? '✅ 已開啟 LINE — 訊息應已自動帶入或已複製到剪貼簿'
+        : '✅ 已開啟 LINE — 請手動貼上訊息');
 }
 
 // 顯示訂單預覽
