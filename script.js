@@ -485,15 +485,30 @@ async function copyAndOpenLine() {
     cart = [];
     updateCartBadge();
 
+    // 檢測設備類型
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
     // 使用 LINE OA Message 格式，訊息會自動帶入（跟在庫網站完全一樣）
     const LINE_OA_ID = '@joyfulfish';
     const url = `https://line.me/R/oaMessage/${encodeURIComponent(LINE_OA_ID)}/?${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
 
-    // 提示訊息
-    showToast(copied
-        ? '✅ 已開啟 LINE — 訂單已自動帶入或已複製到剪貼簿'
-        : '✅ 已開啟 LINE — 請手動貼上訂單');
+    // 手機直接跳轉（可喚起 APP），電腦開新視窗
+    if (isMobile) {
+        window.location.href = url;
+    } else {
+        window.open(url, '_blank');
+    }
+
+    // 提示訊息（針對設備類型）
+    if (isMobile) {
+        showToast(copied
+            ? '✅ 正在開啟 LINE — 訊息應已自動帶入'
+            : '✅ 正在開啟 LINE — 請手動貼上訂單');
+    } else {
+        showToast(copied
+            ? '✅ 已開啟 LINE（網頁版）— 請貼上訊息並傳送'
+            : '⚠️ 請在 LINE 對話框中貼上訊息');
+    }
 }
 
 // 複製到剪貼簿（含後備方案）
