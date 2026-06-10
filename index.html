@@ -373,6 +373,93 @@
         }
 
         /* 分類按鈕 */
+        /* 搜尋欄 */
+        .search-bar {
+            background: var(--bg-card);
+            padding: 1.5rem 2rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.9rem 3rem 0.9rem 1.2rem;
+            border: 2px solid var(--border-light);
+            border-radius: 25px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: all 0.3s;
+            background: var(--bg-primary);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            background: white;
+        }
+
+        .search-input::placeholder {
+            color: var(--text-secondary);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            pointer-events: none;
+        }
+
+        .search-clear {
+            position: absolute;
+            right: 3rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--text-secondary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            font-size: 0.7rem;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+
+        .search-clear:hover {
+            background: var(--text-primary);
+        }
+
+        .search-clear.active {
+            display: flex;
+        }
+
+        /* 搜尋結果提示 */
+        .search-result-text {
+            text-align: center;
+            padding: 1rem 2rem;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            background: var(--bg-primary);
+            border-radius: var(--radius);
+            margin-bottom: 1rem;
+        }
+
+        .search-result-text strong {
+            color: var(--accent-blue);
+            font-weight: 600;
+        }
+
         .filter-bar {
             background: var(--bg-card);
             padding: 1rem 2rem;
@@ -695,6 +782,15 @@
                 font-size: 0.85rem;
                 padding: 0.5rem 1rem;
             }
+
+            .search-bar {
+                padding: 1rem;
+            }
+
+            .search-input {
+                font-size: 0.95rem;
+                padding: 0.8rem 3rem 0.8rem 1rem;
+            }
         }
 
         /* 載入動畫 */
@@ -819,6 +915,21 @@
         </div>
     </header>
 
+    <!-- 搜尋欄 -->
+    <div class="search-bar">
+        <div class="search-container">
+            <input
+                type="text"
+                class="search-input"
+                id="searchInput"
+                placeholder="🔍 搜尋商品名稱、分類、尺寸..."
+                oninput="handleSearch()"
+            >
+            <button class="search-clear" id="searchClear" onclick="clearSearch()">✕</button>
+            <span class="search-icon">🔍</span>
+        </div>
+    </div>
+
     <!-- 分類篩選 -->
     <div class="filter-bar">
         <div class="filter-container" id="filterContainer">
@@ -828,6 +939,7 @@
 
     <!-- 商品列表 -->
     <div class="products-container">
+        <div id="searchResultText"></div>
         <div class="products-grid" id="productsGrid">
             <div class="loading">載入商品中</div>
         </div>

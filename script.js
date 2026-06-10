@@ -3,6 +3,7 @@
 // 全域變數
 let allProducts = [];
 let currentCategory = '全部';
+let searchKeyword = ''; // 搜尋關鍵字
 let cart = []; // 購物車
 
 // 載入商品資料
@@ -48,15 +49,92 @@ function filterByCategory(category) {
     renderProducts();
 }
 
+// 搜尋處理
+function handleSearch() {
+    const input = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('searchClear');
+
+    searchKeyword = input.value.trim();
+
+    // 顯示/隱藏清除按鈕
+    if (searchKeyword) {
+        clearBtn.classList.add('active');
+    } else {
+        clearBtn.classList.remove('active');
+    }
+
+    // 如果有搜尋關鍵字，取消分類篩選（顯示全部）
+    if (searchKeyword) {
+        currentCategory = '全部';
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.category === '全部');
+        });
+    }
+
+    // 重新渲染商品
+    renderProducts();
+}
+
+// 清除搜尋
+function clearSearch() {
+    const input = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('searchClear');
+
+    input.value = '';
+    searchKeyword = '';
+    clearBtn.classList.remove('active');
+
+    // 重新渲染商品
+    renderProducts();
+}
+
 // 渲染商品列表
 function renderProducts() {
     const grid = document.getElementById('productsGrid');
-    const filtered = currentCategory === '全部'
+    const resultText = document.getElementById('searchResultText');
+
+    // 先按分類篩選
+    let filtered = currentCategory === '全部'
         ? allProducts
         : allProducts.filter(p => p.category === currentCategory);
 
+    // 再按搜尋關鍵字篩選
+    if (searchKeyword) {
+        const keyword = searchKeyword.toLowerCase();
+        filtered = filtered.filter(p => {
+            return p.name.toLowerCase().includes(keyword) ||
+                   p.category.toLowerCase().includes(keyword) ||
+                   p.size.toLowerCase().includes(keyword) ||
+                   (p.note && p.note.toLowerCase().includes(keyword));
+        });
+    }
+
+    // 顯示搜尋結果提示
+    if (searchKeyword) {
+        if (filtered.length > 0) {
+            resultText.innerHTML = `
+                <div class="search-result-text">
+                    搜尋「<strong>${searchKeyword}</strong>」找到 <strong>${filtered.length}</strong> 個商品
+                </div>
+            `;
+        } else {
+            resultText.innerHTML = `
+                <div class="search-result-text">
+                    找不到包含「<strong>${searchKeyword}</strong>」的商品，請嘗試其他關鍵字
+                </div>
+            `;
+        }
+    } else {
+        resultText.innerHTML = '';
+    }
+
+    // 顯示商品
     if (filtered.length === 0) {
-        grid.innerHTML = '<div class="loading">😅 此分類暫無商品</div>';
+        if (searchKeyword) {
+            grid.innerHTML = '<div class="loading">🔍 找不到相關商品</div>';
+        } else {
+            grid.innerHTML = '<div class="loading">😅 此分類暫無商品</div>';
+        }
         return;
     }
 
