@@ -103,9 +103,14 @@ function renderSoldOut() {
 // 渲染單一價格
 function renderSinglePrice(product) {
     const tier = product.tiers[0];
+    const hasOriginalPrice = tier.original_price && tier.original_price > tier.total_price;
+    const discount = hasOriginalPrice ? tier.original_price - tier.total_price : 0;
+
     return `
         <div class="single-price">
+            ${hasOriginalPrice ? `<div class="original-price">原價 NT$ ${tier.original_price.toLocaleString()}</div>` : ''}
             <div class="price">NT$ ${tier.total_price.toLocaleString()}</div>
+            ${hasOriginalPrice ? `<div class="discount-badge">省 NT$ ${discount.toLocaleString()}</div>` : ''}
         </div>
     `;
 }
@@ -119,6 +124,9 @@ function renderTierSelector(product) {
             <div class="tier-groups">
                 ${product.tiers.map((tier, index) => {
                     const groupLabel = groupLabels[index] || `${index + 1}組`;
+                    const hasOriginalPrice = tier.original_price && tier.original_price > tier.total_price;
+                    const discount = hasOriginalPrice ? tier.original_price - tier.total_price : 0;
+
                     return `
                         <div class="tier-group ${index === 0 ? 'selected' : ''}"
                              onclick="selectTier(${product.id}, ${index})">
@@ -127,12 +135,14 @@ function renderTierSelector(product) {
                                 <div class="tier-group-moq">最低購買量：${tier.quantity} 隻</div>
                             </div>
                             <div class="tier-group-content">
+                                ${hasOriginalPrice ? `<div class="tier-original-price">原價 NT$ ${tier.original_price.toLocaleString()}</div>` : ''}
                                 <div class="tier-group-price-row">
                                     <div class="tier-group-price">NT$ ${tier.total_price.toLocaleString()}</div>
                                     ${tier.unit_price > 0 ?
                                         `<div class="tier-group-avg">平均 $${tier.unit_price}/隻</div>` :
                                         ''}
                                 </div>
+                                ${hasOriginalPrice ? `<div class="tier-discount-badge">省 NT$ ${discount.toLocaleString()}</div>` : ''}
                             </div>
                         </div>
                     `;
