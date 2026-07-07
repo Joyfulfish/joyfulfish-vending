@@ -1662,7 +1662,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/多輻韌蝦虎1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -1874,7 +1874,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/淺紅枝牙蝦虎1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
