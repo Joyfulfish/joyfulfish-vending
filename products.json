@@ -5,7 +5,7 @@
     "category": "汽水魚",
     "size": "7~8",
     "badge": "🌟新貨",
-    "note": "",
+    "note": "汽水魚",
     "image": "images/中國淡水比目魚1.jpg",
     "soldOut": 0,
     "tiers": [
@@ -35,7 +35,7 @@
     "category": "汽水魚",
     "size": "5~6",
     "badge": "🌟新貨",
-    "note": "",
+    "note": "汽水魚",
     "image": "images/卵鰨1.png",
     "soldOut": 0,
     "tiers": [
@@ -1978,9 +1978,10 @@
     "soldOut": 0,
     "tiers": [
       {
-        "quantity": 20,
+        "quantity": 10,
         "unit_price": 85,
-        "total_price": 1700
+        "total_price": 850,
+        "original_price": 1000
       },
       {
         "quantity": 30,
@@ -2064,23 +2065,6 @@
   },
   {
     "id": 108,
-    "name": "檸檬太平洋燕子",
-    "category": "燈魚",
-    "size": "2~3",
-    "badge": "🔥熱門",
-    "note": "",
-    "image": "images/檸檬太平洋燕子1.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 250,
-        "total_price": 250
-      }
-    ]
-  },
-  {
-    "id": 109,
     "name": "藍剛果燈",
     "category": "燈魚",
     "size": "2",
@@ -2097,7 +2081,7 @@
     ]
   },
   {
-    "id": 110,
+    "id": 109,
     "name": "藍鑽燕子",
     "category": "燈魚",
     "size": "2",
@@ -2120,6 +2104,23 @@
         "quantity": 10,
         "unit_price": 90,
         "total_price": 900
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "檸檬太平洋燕子",
+    "category": "燈魚",
+    "size": "2~3",
+    "badge": "🔥熱門",
+    "note": "",
+    "image": "images/檸檬太平洋燕子1.png",
+    "soldOut": 1,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 250,
+        "total_price": 250
       }
     ]
   },
@@ -2430,29 +2431,6 @@
   },
   {
     "id": 127,
-    "name": "白瓷娃娃蟹",
-    "category": "蟹類",
-    "size": "M",
-    "badge": "⭐️特價",
-    "note": "不分公母",
-    "image": "images/白瓷娃娃蟹1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 0,
-        "total_price": 180,
-        "original_price": 220
-      },
-      {
-        "quantity": 3,
-        "unit_price": 0,
-        "total_price": 450
-      }
-    ]
-  },
-  {
-    "id": 128,
     "name": "白臂糖果惡魔蟹",
     "category": "蟹類",
     "size": "M",
@@ -2476,7 +2454,7 @@
     ]
   },
   {
-    "id": 129,
+    "id": 128,
     "name": "金眼黃背惡魔蟹",
     "category": "蟹類",
     "size": "M",
@@ -2500,7 +2478,7 @@
     ]
   },
   {
-    "id": 130,
+    "id": 129,
     "name": "迪斯可惡魔蟹",
     "category": "蟹類",
     "size": "M",
@@ -2524,7 +2502,7 @@
     ]
   },
   {
-    "id": 131,
+    "id": 130,
     "name": "香蕉惡魔蟹",
     "category": "蟹類",
     "size": "M",
@@ -2548,7 +2526,7 @@
     ]
   },
   {
-    "id": 132,
+    "id": 131,
     "name": "萬聖節惡魔蟹",
     "category": "蟹類",
     "size": "M",
@@ -2568,6 +2546,29 @@
         "unit_price": 0,
         "total_price": 3000,
         "original_price": 4500
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "白瓷娃娃蟹",
+    "category": "蟹類",
+    "size": "M",
+    "badge": "⭐️特價",
+    "note": "不分公母",
+    "image": "images/白瓷娃娃蟹1.jpg",
+    "soldOut": 1,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 0,
+        "total_price": 180,
+        "original_price": 220
+      },
+      {
+        "quantity": 3,
+        "unit_price": 0,
+        "total_price": 450
       }
     ]
   },
@@ -3158,36 +3159,6 @@
   },
   {
     "id": 162,
-    "name": "雲紋葫蘆琵琶",
-    "category": "鰍類",
-    "size": "4~5",
-    "badge": "🌟新貨",
-    "note": "",
-    "image": "images/雲紋葫蘆琵琶1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 950,
-        "total_price": 950,
-        "original_price": 1150
-      },
-      {
-        "quantity": 3,
-        "unit_price": 850,
-        "total_price": 2550,
-        "original_price": 3450
-      },
-      {
-        "quantity": 10,
-        "unit_price": 700,
-        "total_price": 7000,
-        "original_price": 11500
-      }
-    ]
-  },
-  {
-    "id": 163,
     "name": "黃果樹爬岩鰍",
     "category": "鰍類",
     "size": "4~5",
@@ -3204,7 +3175,7 @@
     ]
   },
   {
-    "id": 164,
+    "id": 163,
     "name": "圓體爬岩鰍",
     "category": "鰍類",
     "size": "3~4",
@@ -3221,7 +3192,7 @@
     ]
   },
   {
-    "id": 165,
+    "id": 164,
     "name": "電波蛇魚",
     "category": "鰍類",
     "size": "4~5",
@@ -3238,7 +3209,7 @@
     ]
   },
   {
-    "id": 166,
+    "id": 165,
     "name": "廣西秉氏吸鰍",
     "category": "鰍類",
     "size": "6",
@@ -3255,7 +3226,7 @@
     ]
   },
   {
-    "id": 167,
+    "id": 166,
     "name": "縱紋原纓口鰍",
     "category": "鰍類",
     "size": "4~5",
@@ -3272,7 +3243,7 @@
     ]
   },
   {
-    "id": 168,
+    "id": 167,
     "name": "麗紋雲南鰍（麗紋泳鰍）",
     "category": "鰍類",
     "size": "3",
@@ -3295,6 +3266,36 @@
         "quantity": 12,
         "unit_price": 82,
         "total_price": 990
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "name": "雲紋葫蘆琵琶",
+    "category": "鰍類",
+    "size": "4~5",
+    "badge": "🔥熱門",
+    "note": "",
+    "image": "images/雲紋葫蘆琵琶1.jpg",
+    "soldOut": 1,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 950,
+        "total_price": 950,
+        "original_price": 1150
+      },
+      {
+        "quantity": 3,
+        "unit_price": 850,
+        "total_price": 2550,
+        "original_price": 3450
+      },
+      {
+        "quantity": 10,
+        "unit_price": 700,
+        "total_price": 7000,
+        "original_price": 11500
       }
     ]
   },
