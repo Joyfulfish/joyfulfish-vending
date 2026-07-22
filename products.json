@@ -1403,10 +1403,10 @@
     "name": "綠翡翠枝牙蝦虎",
     "category": "蝦虎/塘鱧",
     "size": "4",
-    "badge": "🌟新貨",
+    "badge": "🔥熱門",
     "note": "",
     "image": "images/綠翡翠枝牙蝦虎1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -1470,7 +1470,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/龜紋鯔蝦虎1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2410,10 +2410,10 @@
     "name": "小熊維尼蟹",
     "category": "蟹類",
     "size": "M",
-    "badge": "⭐️特價",
+    "badge": "🔥熱門",
     "note": "對蟹",
     "image": "images/小熊維尼蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 2,
@@ -2428,10 +2428,10 @@
     "name": "火焰惡魔蟹",
     "category": "蟹類",
     "size": "M",
-    "badge": "⭐️特價",
+    "badge": "🔥熱門",
     "note": "對蟹",
     "image": "images/火焰惡魔蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 2,
@@ -2452,10 +2452,10 @@
     "name": "白臂糖果惡魔蟹",
     "category": "蟹類",
     "size": "M",
-    "badge": "⭐️特價",
+    "badge": "🔥熱門",
     "note": "對蟹",
     "image": "images/白臂糖果惡魔蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 2,
@@ -2476,10 +2476,10 @@
     "name": "金眼黃背惡魔蟹",
     "category": "蟹類",
     "size": "M",
-    "badge": "⭐️特價",
+    "badge": "🔥熱門",
     "note": "對蟹",
     "image": "images/金眼黃背惡魔蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 2,
@@ -2500,10 +2500,10 @@
     "name": "迪斯可惡魔蟹",
     "category": "蟹類",
     "size": "M",
-    "badge": "⭐️特價",
+    "badge": "🔥熱門",
     "note": "對蟹",
     "image": "images/迪斯可惡魔蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 2,
@@ -2524,10 +2524,10 @@
     "name": "香蕉惡魔蟹",
     "category": "蟹類",
     "size": "M",
-    "badge": "⭐️特價",
+    "badge": "🔥熱門",
     "note": "對蟹",
     "image": "images/香蕉惡魔蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 2,
@@ -2548,10 +2548,10 @@
     "name": "萬聖節惡魔蟹",
     "category": "蟹類",
     "size": "M",
-    "badge": "⭐️特價",
+    "badge": "🔥熱門",
     "note": "對蟹",
     "image": "images/萬聖節惡魔蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 2,
@@ -2572,7 +2572,7 @@
     "name": "白瓷娃娃蟹",
     "category": "蟹類",
     "size": "M",
-    "badge": "⭐️特價",
+    "badge": "🔥熱門",
     "note": "不分公母",
     "image": "images/白瓷娃娃蟹1.jpg",
     "soldOut": 1,
@@ -2983,10 +2983,10 @@
     "name": "長汀吸鰍",
     "category": "鰍類",
     "size": "5~6",
-    "badge": "🌟新貨",
+    "badge": "🔥熱門",
     "note": "",
     "image": "images/長汀吸鰍1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 5,
@@ -3092,10 +3092,10 @@
     "name": "紫鰭吸鰍",
     "category": "鰍類",
     "size": "4~6",
-    "badge": "🌟新貨",
+    "badge": "🔥熱門",
     "note": "",
     "image": "images/紫鰭吸鰍1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
