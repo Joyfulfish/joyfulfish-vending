@@ -1304,7 +1304,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/黑鰭枝牙蝦虎.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -1348,7 +1348,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/溪鱧1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -1365,7 +1365,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/溪鱧1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -1382,7 +1382,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/裕藍枝牙蝦虎1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2830,7 +2830,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/四川虎紋吸鰍1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2928,7 +2928,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/亞洲直升機吸鰍.jpeg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -3251,7 +3251,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/縱紋原纓口鰍1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
