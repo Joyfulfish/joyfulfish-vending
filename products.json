@@ -1942,7 +1942,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/美麗彩虹仙子1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -1980,8 +1980,8 @@
     "tiers": [
       {
         "quantity": 1,
-        "unit_price": 2050,
-        "total_price": 2050
+        "unit_price": 2000,
+        "total_price": 2000
       }
     ]
   },
@@ -2072,7 +2072,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/橘色霓虹燕子1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2328,7 +2328,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/黑寶石鯽1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2806,7 +2806,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/方氏吸鰍1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 5,
