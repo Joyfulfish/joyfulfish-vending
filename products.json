@@ -357,7 +357,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/電波蛇魚1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -418,7 +418,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/麗紋雲南鰍（麗紋泳鰍）1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 5,
@@ -852,7 +852,7 @@
     "badge": "🔥熱門",
     "note": "不分公母",
     "image": "images/豹紋啦啦蟹.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -869,7 +869,7 @@
     "badge": "🔥熱門",
     "note": "不分公母",
     "image": "images/陶瓷娃娃蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -886,7 +886,7 @@
     "badge": "🔥熱門",
     "note": "不分公母",
     "image": "images/紫玉蟹1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -1885,7 +1885,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/周氏吻蝦虎－公1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2243,7 +2243,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/雲南血喉吻蝦虎－公1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2333,7 +2333,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/賽魯伊天使1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2384,7 +2384,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/蘇拉威西韌蝦虎－公1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -2401,7 +2401,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/蘇拉威西韌蝦虎－母1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -3628,7 +3628,7 @@
     "badge": "新貨✨",
     "note": "",
     "image": "",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
