@@ -150,7 +150,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/長汀吸鰍1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 5,
@@ -191,7 +191,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/迪氏思凡吸鰍1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
@@ -543,7 +543,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/金斑馬爬岩鰍1.jpg",
-    "soldOut": 1,
+    "soldOut": 0,
     "tiers": [
       {
         "quantity": 1,
@@ -2567,7 +2567,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/美麗韌蝦虎1.jpg",
-    "soldOut": 1,
+    "soldOut": 0,
     "tiers": [
       {
         "quantity": 1,
@@ -2628,7 +2628,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/淺紅枝牙蝦虎1.jpg",
-    "soldOut": 1,
+    "soldOut": 0,
     "tiers": [
       {
         "quantity": 1,
@@ -2699,7 +2699,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/黑鰭枝牙蝦虎.jpg",
-    "soldOut": 1,
+    "soldOut": 0,
     "tiers": [
       {
         "quantity": 1,
@@ -2716,7 +2716,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/溪鱧1.jpg",
-    "soldOut": 1,
+    "soldOut": 0,
     "tiers": [
       {
         "quantity": 1,
@@ -2733,7 +2733,7 @@
     "badge": "🔥熱門",
     "note": "",
     "image": "images/溪鱧1.jpg",
-    "soldOut": 1,
+    "soldOut": 0,
     "tiers": [
       {
         "quantity": 1,
@@ -3246,7 +3246,7 @@
   },
   {
     "id": 161,
-    "name": "大耳半月－公",
+    "name": "大耳半月鬥魚（公）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3263,7 +3263,7 @@
   },
   {
     "id": 162,
-    "name": "大耳半月－母",
+    "name": "大耳半月鬥魚（母）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3280,7 +3280,7 @@
   },
   {
     "id": 163,
-    "name": "半月鬥魚－公",
+    "name": "半月鬥魚（公）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3297,24 +3297,7 @@
   },
   {
     "id": 164,
-    "name": "半月鬥魚－公（A級）",
-    "category": "迷鰓魚/泰國鬥魚",
-    "size": "L",
-    "badge": "🔥熱門",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 500,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 165,
-    "name": "半月鬥魚－母",
+    "name": "半月鬥魚（母）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3330,25 +3313,8 @@
     ]
   },
   {
-    "id": 166,
-    "name": "巨型PK－公（A級）",
-    "category": "迷鰓魚/泰國鬥魚",
-    "size": "L",
-    "badge": "🔥熱門",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 500,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 167,
-    "name": "冠尾鬥魚－公",
+    "id": 165,
+    "name": "冠尾鬥魚（公）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3364,8 +3330,8 @@
     ]
   },
   {
-    "id": 168,
-    "name": "冠尾鬥魚－母",
+    "id": 166,
+    "name": "冠尾鬥魚（母）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3381,7 +3347,7 @@
     ]
   },
   {
-    "id": 169,
+    "id": 167,
     "name": "迷鬥子",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "2~2.5",
@@ -3405,8 +3371,8 @@
     ]
   },
   {
-    "id": 170,
-    "name": "馬尾鬥魚－公",
+    "id": 168,
+    "name": "馬尾鬥魚（公）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3422,42 +3388,8 @@
     ]
   },
   {
-    "id": 171,
-    "name": "黑武士PK－公",
-    "category": "迷鰓魚/泰國鬥魚",
-    "size": "L",
-    "badge": "🔥熱門",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 360,
-        "total_price": 360
-      }
-    ]
-  },
-  {
-    "id": 172,
-    "name": "黑武士PK－母",
-    "category": "迷鰓魚/泰國鬥魚",
-    "size": "L",
-    "badge": "🔥熱門",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 350,
-        "total_price": 350
-      }
-    ]
-  },
-  {
-    "id": 173,
-    "name": "綜合PK－公",
+    "id": 169,
+    "name": "綜合PK鬥魚（公）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3473,25 +3405,8 @@
     ]
   },
   {
-    "id": 174,
-    "name": "綜合PK－公（A級）",
-    "category": "迷鰓魚/泰國鬥魚",
-    "size": "L",
-    "badge": "🔥熱門",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 380,
-        "total_price": 380
-      }
-    ]
-  },
-  {
-    "id": 175,
-    "name": "綜合PK－母",
+    "id": 170,
+    "name": "綜合PK鬥魚（母）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3507,8 +3422,8 @@
     ]
   },
   {
-    "id": 176,
-    "name": "銀河PK－公",
+    "id": 171,
+    "name": "銀河PK鬥魚（公）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3524,25 +3439,8 @@
     ]
   },
   {
-    "id": 177,
-    "name": "銀河PK－公（A級）",
-    "category": "迷鰓魚/泰國鬥魚",
-    "size": "L",
-    "badge": "🔥熱門",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 400,
-        "total_price": 400
-      }
-    ]
-  },
-  {
-    "id": 178,
-    "name": "銀河PK－母",
+    "id": 172,
+    "name": "銀河PK鬥魚（母）",
     "category": "迷鰓魚/泰國鬥魚",
     "size": "L",
     "badge": "🔥熱門",
@@ -3558,7 +3456,7 @@
     ]
   },
   {
-    "id": 179,
+    "id": 173,
     "name": "鬆獅蜥",
     "category": "爬蟲",
     "size": "S",
@@ -3580,7 +3478,7 @@
     ]
   },
   {
-    "id": 180,
+    "id": 174,
     "name": "巧克力象鼻龍",
     "category": "其他魚類",
     "size": "20~22",
@@ -3597,7 +3495,7 @@
     ]
   },
   {
-    "id": 181,
+    "id": 175,
     "name": "綠皮中華刺鰍",
     "category": "其他魚類",
     "size": "8~10",
@@ -3621,7 +3519,7 @@
     ]
   },
   {
-    "id": 182,
+    "id": 176,
     "name": "長鼻中華刺鰍",
     "category": "其他魚類",
     "size": "10~15 cm",
@@ -3638,7 +3536,7 @@
     ]
   },
   {
-    "id": 183,
+    "id": 177,
     "name": "黃金中華刺鰍（潮汕產）",
     "category": "其他魚類",
     "size": "10 cm",
@@ -3665,7 +3563,7 @@
     ]
   },
   {
-    "id": 184,
+    "id": 178,
     "name": "網紋刺鰍（西雙版納產）",
     "category": "其他魚類",
     "size": "20~30 cm",
@@ -3687,7 +3585,7 @@
     ]
   },
   {
-    "id": 185,
+    "id": 179,
     "name": "寮國刺鰍",
     "category": "其他魚類",
     "size": "10~15 cm",
@@ -3709,7 +3607,7 @@
     ]
   },
   {
-    "id": 186,
+    "id": 180,
     "name": "中國淡水比目魚",
     "category": "汽水魚",
     "size": "7~8",
@@ -3739,7 +3637,7 @@
     ]
   },
   {
-    "id": 187,
+    "id": 181,
     "name": "卵鰨",
     "category": "汽水魚",
     "size": "5~6",
@@ -3763,7 +3661,7 @@
     ]
   },
   {
-    "id": 188,
+    "id": 182,
     "name": "明多羅龍口鰻",
     "category": "汽水魚",
     "size": "15~20",
