@@ -940,9 +940,9 @@
     "category": "蝦虎/塘鱧",
     "size": "3~4",
     "badge": "",
-    "note": "僅有兩隻",
+    "note": "",
     "image": "images/深紅珍珠枝牙蝦虎1.jpg",
-    "soldOut": 0,
+    "soldOut": 1,
     "tiers": [
       {
         "quantity": 1,
