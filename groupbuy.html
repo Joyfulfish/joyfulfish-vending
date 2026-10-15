@@ -25,9 +25,9 @@ details ul{margin:8px 0 2px;padding-left:18px;font-size:14px;line-height:1.75;co
 .wrap{max-width:820px;margin:0 auto;padding:0 16px}
 .search{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font-size:16px;background:#fff}
 .search:focus{outline:2px solid var(--gold);border-color:var(--gold)}
-.chips{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;scrollbar-width:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:8px 0 2px}
 .chips::-webkit-scrollbar{display:none}
-.chip{flex:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;font-size:13px;color:var(--navy)}
+.chip{flex:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 10px;font-size:13px;color:var(--navy)}
 .chip.on{background:var(--navy);color:#fff;border-color:var(--navy)}
 .count{font-size:12px;color:var(--mute);padding-top:4px}
 main{padding-bottom:110px}
@@ -73,6 +73,13 @@ form input,form textarea{width:100%;padding:10px 12px;border:1px solid var(--lin
 .acts{display:grid;gap:8px;margin:16px 0 8px}
 .hint{font-size:12px;color:var(--mute);text-align:center}
 .closed{background:var(--red);color:#fff;text-align:center;padding:10px;font-weight:700}
+.done{position:fixed;inset:0;z-index:30;display:none;align-items:center;justify-content:center;background:rgba(10,18,38,.55);padding:16px}
+.done.open{display:flex}
+.done .box{background:#fff;border-radius:14px;max-width:380px;width:100%;padding:22px 18px;text-align:center}
+.done h3{font-family:"Shippori Mincho",serif;color:var(--navy);margin:4px 0 6px;font-size:20px}
+.done p{font-size:14px;color:#374151;line-height:1.7;margin:6px 0}
+.done .oid{font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
+.done .acts{margin-top:14px}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#111827;color:#fff;padding:10px 16px;border-radius:8px;font-size:14px;z-index:40;opacity:0;transition:opacity .2s;pointer-events:none}
 .toast.show{opacity:1}
 @media (max-width:420px){.item{flex-wrap:wrap}.info{flex-basis:calc(100% - 100px)}.pr{flex:1;text-align:left}}
@@ -123,6 +130,17 @@ form input,form textarea{width:100%;padding:10px 12px;border:1px solid var(--lin
   </div>
   <p class="hint">按下後會開啟 LINE，訂單內容已自動帶入，記得按「傳送」才算完成下單。</p>
 </div></section>
+<div class="done" id="done"><div class="box">
+  <div style="font-size:34px">✅</div>
+  <h3>訂單已送出</h3>
+  <p>訂單編號 <span class="oid" id="oid"></span><br>合計 <b>$<span id="dt"></span></b>（運費另計）</p>
+  <p>請確認已在 LINE 按下「傳送」，才算完成下單喔！</p>
+  <div class="acts">
+    <button class="btn line" id="reLine">重新開啟 LINE 傳送</button>
+    <button class="btn ghost" id="reCopy">複製訂單文字</button>
+    <button class="btn gold" id="backHome">回到首頁</button>
+  </div>
+</div></div>
 <div class="toast" id="toast"></div>
 
 <script>
@@ -274,7 +292,10 @@ function newId() {
 }
 function toast(m) { var t = $('#toast'); t.textContent = m; t.classList.add('show'); setTimeout(function () { t.classList.remove('show'); }, 2200); }
 function copyText(t) {
-  if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(t);
+  if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(t).catch(function () { return fallbackCopy(t); });
+  return fallbackCopy(t);
+}
+function fallbackCopy(t) {
   var a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select();
   try { document.execCommand('copy'); } catch (e) {} a.remove(); return Promise.resolve();
 }
@@ -291,8 +312,21 @@ $('#sendLine').onclick = function () {
   var id = newId(), t = orderText(id, c);
   sendSheet(id, c);
   copyText(t);
-  location.href = 'https://line.me/R/oaMessage/' + encodeURIComponent(CFG.lineId) + '/?' + encodeURIComponent(t);
+  lastOrder = { id: id, text: t, total: total() };
+  // 清空購物車、回到首頁並顯示完成畫面
+  cart = {}; save(); updateBar(); closeCart();
+  $('#q').value = ''; curCat = '全部';
+  document.querySelectorAll('.chip').forEach(function (x) { x.classList.toggle('on', x.dataset.c === '全部'); });
+  render(); window.scrollTo(0, 0);
+  $('#oid').textContent = id; $('#dt').textContent = fmt(lastOrder.total);
+  $('#done').classList.add('open');
+  openLine(t);
 };
+var lastOrder = null;
+function openLine(t) { location.href = 'https://line.me/R/oaMessage/' + encodeURIComponent(CFG.lineId) + '/?' + encodeURIComponent(t); }
+$('#reLine').onclick = function () { if (lastOrder) openLine(lastOrder.text); };
+$('#reCopy').onclick = function () { if (lastOrder) copyText(lastOrder.text).then(function () { toast('已複製，請貼到魚樂匯 LINE 官方帳號'); }); };
+$('#backHome').onclick = function () { $('#done').classList.remove('open'); };
 $('#copy').onclick = function () {
   if (!lines().length) return;
   var c = getCustomer(); if (!c) return;
