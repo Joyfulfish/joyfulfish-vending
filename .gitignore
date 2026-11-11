@@ -1,0 +1,20 @@
+# 白名單：只有網站會用到的檔案才會上傳到 GitHub
+# 其他（Excel 報價、工具腳本、備份、預購表單系統等）一律不上傳
+*
+
+!.gitignore
+!README.md
+!index.html
+!products.json
+!logo.png
+!line_qrcode.png
+
+!css/
+!css/**
+!js/
+!js/**
+!images/
+!images/**
+
+# 系統暫存檔
+.DS_Store
