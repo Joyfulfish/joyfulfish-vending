@@ -1,3877 +1,6 @@
 [
   {
     "id": 1,
-    "name": "金鷹",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 290,
-        "total_price": 2900
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "金鷹",
-    "category": "非洲慈鯛",
-    "size": "6",
-    "badge": "",
-    "note": "8隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 8,
-        "unit_price": 360,
-        "total_price": 2880
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "酷斯拉",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 670,
-        "total_price": 3350
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "酷斯拉",
-    "category": "非洲慈鯛",
-    "size": "10",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 845,
-        "total_price": 2535
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "酷斯拉",
-    "category": "非洲慈鯛",
-    "size": "12",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 1025,
-        "total_price": 3075
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "酷斯拉",
-    "category": "非洲慈鯛",
-    "size": "15",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 1180,
-        "total_price": 3540
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "銀邊金三點",
-    "category": "非洲慈鯛",
-    "size": "12",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 600,
-        "total_price": 1800
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "靚三點",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 370,
-        "total_price": 1850
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "藍排骨",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 400,
-        "total_price": 2000
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "藍寶石",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 400,
-        "total_price": 2000
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "企鵝",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 260,
-        "total_price": 2600
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "紅頂勾鼻",
-    "category": "非洲慈鯛",
-    "size": "6",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 315,
-        "total_price": 1575
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "name": "紅頂勾鼻",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 335,
-        "total_price": 1675
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "紅頂藍雀",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 500,
-        "total_price": 2500
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "name": "紅雞",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 180,
-        "total_price": 1800
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "name": "紅雞",
-    "category": "非洲慈鯛",
-    "size": "10",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 1335,
-        "total_price": 4005
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "name": "桔色奇倫巴",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "15隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 15,
-        "unit_price": 160,
-        "total_price": 2400
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "name": "桔色奇倫巴",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 260,
-        "total_price": 2600
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "name": "桔色奇倫巴",
-    "category": "非洲慈鯛",
-    "size": "10",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 670,
-        "total_price": 3350
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "name": "海豚斑馬",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 260,
-        "total_price": 2600
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "name": "黃珍珠王子",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 260,
-        "total_price": 1300
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "name": "獅子阿芙拉",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 260,
-        "total_price": 2600
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "name": "達克雷爾",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 260,
-        "total_price": 1300
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "name": "達克雷爾",
-    "category": "非洲慈鯛",
-    "size": "6",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 290,
-        "total_price": 1450
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "name": "緋紅天使（河馬）",
-    "category": "非洲慈鯛",
-    "size": "10",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 670,
-        "total_price": 3350
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "name": "歐洛拉天使",
-    "category": "非洲慈鯛",
-    "size": "3",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 100,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "name": "盧旺達孔雀",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 445,
-        "total_price": 2225
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "name": "藍花孔雀",
-    "category": "非洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 500,
-        "total_price": 2500
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "name": "曼達尼黃金珍珠虎",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "週五前預訂、3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 1335,
-        "total_price": 4005
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "name": "瑪莎瓦紅線天使",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 170,
-        "total_price": 1700
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "name": "瑪莎瓦紅線天使",
-    "category": "非洲慈鯛",
-    "size": "9",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 835,
-        "total_price": 2505
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "name": "噴點珍珠虎",
-    "category": "非洲慈鯛",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 245,
-        "total_price": 1225
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "name": "噴點珍珠虎",
-    "category": "非洲慈鯛",
-    "size": "4",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 270,
-        "total_price": 1350
-      }
-    ]
-  },
-  {
-    "id": 34,
-    "name": "穆麗金頭珍珠虎",
-    "category": "非洲慈鯛",
-    "size": "5",
-    "badge": "",
-    "note": "週五前預訂、5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 1115,
-        "total_price": 5575
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "name": "穆麗金頭珍珠虎",
-    "category": "非洲慈鯛",
-    "size": "8",
-    "badge": "",
-    "note": "週五前預訂、3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 1670,
-        "total_price": 5010
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "name": "一顆心血鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "8",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 40,
-        "total_price": 400
-      }
-    ]
-  },
-  {
-    "id": 37,
-    "name": "一顆心血鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "10",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 60,
-        "total_price": 300
-      }
-    ]
-  },
-  {
-    "id": 38,
-    "name": "一顆心血鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "12",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 85,
-        "total_price": 425
-      }
-    ]
-  },
-  {
-    "id": 39,
-    "name": "一顆心紫鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "8",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 45,
-        "total_price": 450
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "name": "一顆心紫鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "10",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 70,
-        "total_price": 350
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "name": "一顆心紫鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "12",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 95,
-        "total_price": 475
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "name": "一顆心黃鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "7",
-    "badge": "",
-    "note": "15隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 15,
-        "unit_price": 45,
-        "total_price": 675
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "name": "血鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "10",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 50,
-        "total_price": 250
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "name": "血鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "12",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 70,
-        "total_price": 350
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "name": "血鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "14",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 100,
-        "total_price": 300
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "name": "血鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "16",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 190,
-        "total_price": 570
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "name": "紫鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "10",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 50,
-        "total_price": 250
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "name": "紫鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "12",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 90,
-        "total_price": 450
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "name": "紫鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "14",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 125,
-        "total_price": 375
-      }
-    ]
-  },
-  {
-    "id": 50,
-    "name": "紫鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "16",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 200,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "name": "黃鸚鵡",
-    "category": "美洲慈鯛",
-    "size": "8",
-    "badge": "",
-    "note": "15隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 15,
-        "unit_price": 45,
-        "total_price": 675
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "name": "白子藍月鼠",
-    "category": "鼠魚",
-    "size": "5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2250,
-        "total_price": 2250
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "name": "青銅鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 70,
-        "total_price": 700
-      }
-    ]
-  },
-  {
-    "id": 54,
-    "name": "青銅鼠",
-    "category": "鼠魚",
-    "size": "4",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 90,
-        "total_price": 900
-      }
-    ]
-  },
-  {
-    "id": 55,
-    "name": "藍月鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 150,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "name": "藍月鼠",
-    "category": "鼠魚",
-    "size": "4",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 225,
-        "total_price": 2250
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "name": "藍月鼠",
-    "category": "鼠魚",
-    "size": "5",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 900,
-        "total_price": 4500
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "name": "金花豹鼠",
-    "category": "鼠魚",
-    "size": "6",
-    "badge": "",
-    "note": "野生、3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 600,
-        "total_price": 1800
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "name": "蕊娜鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "人工、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 1150,
-        "total_price": 2300
-      }
-    ]
-  },
-  {
-    "id": 60,
-    "name": "波克鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "人工、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 815,
-        "total_price": 1630
-      }
-    ]
-  },
-  {
-    "id": 61,
-    "name": "奧柏根鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "人工、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 815,
-        "total_price": 1630
-      }
-    ]
-  },
-  {
-    "id": 62,
-    "name": "短吻女王二線鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "人工、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 815,
-        "total_price": 1630
-      }
-    ]
-  },
-  {
-    "id": 63,
-    "name": "紫羅蘭鼠五型",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "人工、3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 315,
-        "total_price": 945
-      }
-    ]
-  },
-  {
-    "id": 64,
-    "name": "圭亞那鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "人工、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 750,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "name": "長鰭花鼠",
-    "category": "鼠魚",
-    "size": "4",
-    "badge": "",
-    "note": "人工、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 750,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 66,
-    "name": "長鰭花鼠",
-    "category": "鼠魚",
-    "size": "6",
-    "badge": "",
-    "note": "人工、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 850,
-        "total_price": 1700
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "name": "花尾鼠",
-    "category": "鼠魚",
-    "size": "4~5",
-    "badge": "",
-    "note": "週五前預訂,人工、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 625,
-        "total_price": 1250
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "name": "黃金豹點鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "人工",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1625,
-        "total_price": 1625
-      }
-    ]
-  },
-  {
-    "id": 69,
-    "name": "尼格羅青鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 250,
-        "total_price": 1250
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "name": "尼格羅青鼠",
-    "category": "鼠魚",
-    "size": "4",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 315,
-        "total_price": 945
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "name": "白鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "name": "咖啡鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 5,
-        "total_price": 100
-      }
-    ]
-  },
-  {
-    "id": 73,
-    "name": "金線綠鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 70,
-        "total_price": 1400
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "name": "金線綠鼠（野生）",
-    "category": "鼠魚",
-    "size": "4",
-    "badge": "",
-    "note": "野生、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 600,
-        "total_price": 1200
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "name": "紅黑帶鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 45,
-        "total_price": 900
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "name": "黑鼠",
-    "category": "鼠魚",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 95,
-        "total_price": 475
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "name": "黑鼠",
-    "category": "鼠魚",
-    "size": "4",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 150,
-        "total_price": 750
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "name": "熊貓異形（L046）",
-    "category": "異型",
-    "size": "3",
-    "badge": "",
-    "note": "週五前預訂、2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 2135,
-        "total_price": 4270
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "name": "黃金達摩（L014）",
-    "category": "異型",
-    "size": "22~23",
-    "badge": "",
-    "note": "週五前預訂,野生",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 8000,
-        "total_price": 8000
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "name": "皇冠直昇機",
-    "category": "異型",
-    "size": "3",
-    "badge": "",
-    "note": "15隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 15,
-        "unit_price": 55,
-        "total_price": 825
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "name": "紅色直昇機",
-    "category": "異型",
-    "size": "5",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 160,
-        "total_price": 800
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "name": "黃金直昇機",
-    "category": "異型",
-    "size": "5",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 470,
-        "total_price": 2350
-      }
-    ]
-  },
-  {
-    "id": 83,
-    "name": "印尼推土機",
-    "category": "鯰魚",
-    "size": "7~8",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 650,
-        "total_price": 650
-      },
-      {
-        "quantity": 3,
-        "unit_price": 540,
-        "total_price": 1620,
-        "original_price": 1950
-      }
-    ]
-  },
-  {
-    "id": 84,
-    "name": "迷鬥子",
-    "category": "迷鰓魚",
-    "size": "2~2.5",
-    "badge": "",
-    "note": "",
-    "image": "images/迷鬥子1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1200,
-        "total_price": 1200
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "name": "皇冠小鲃",
-    "category": "鯉科魚",
-    "size": "5",
-    "badge": "",
-    "note": "",
-    "image": "images/皇冠小鲃1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 200,
-        "total_price": 200
-      }
-    ]
-  },
-  {
-    "id": 86,
-    "name": "長鰭綠螢光紅尾鯽",
-    "category": "鯉科魚",
-    "size": "4",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 100,
-        "total_price": 100
-      },
-      {
-        "quantity": 10,
-        "unit_price": 95,
-        "total_price": 950,
-        "original_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 87,
-    "name": "火山鰟鮍－公",
-    "category": "鯉科魚",
-    "size": "5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 600,
-        "total_price": 1800
-      }
-    ]
-  },
-  {
-    "id": 88,
-    "name": "台灣石鮒",
-    "category": "鯉科魚",
-    "size": "4",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 35,
-        "total_price": 700
-      }
-    ]
-  },
-  {
-    "id": 89,
-    "name": "紅邊鰟鮍",
-    "category": "鯉科魚",
-    "size": "4",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 200,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 90,
-    "name": "越南鱊",
-    "category": "鯉科魚",
-    "size": "6~7",
-    "badge": "",
-    "note": "",
-    "image": "images/越南鱊1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 585,
-        "total_price": 585
-      }
-    ]
-  },
-  {
-    "id": 91,
-    "name": "幻彩鏡魚",
-    "category": "鯉科魚",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 300,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 92,
-    "name": "多彩霓虹",
-    "category": "鯉科魚",
-    "size": "4",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 85,
-        "total_price": 1700
-      }
-    ]
-  },
-  {
-    "id": 93,
-    "name": "林氏細鯽",
-    "category": "鯉科魚",
-    "size": "3",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 85,
-        "total_price": 1700
-      }
-    ]
-  },
-  {
-    "id": 94,
-    "name": "高屏馬口鱲",
-    "category": "鯉科魚",
-    "size": "3~4",
-    "badge": "",
-    "note": "溪哥",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 45,
-        "total_price": 45
-      }
-    ]
-  },
-  {
-    "id": 95,
-    "name": "高屏馬口鱲",
-    "category": "鯉科魚",
-    "size": "5~6",
-    "badge": "",
-    "note": "溪哥",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 50,
-        "total_price": 50
-      }
-    ]
-  },
-  {
-    "id": 96,
-    "name": "彩虹精靈",
-    "category": "鯉科魚",
-    "size": "5",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 70,
-        "total_price": 1400
-      }
-    ]
-  },
-  {
-    "id": 97,
-    "name": "粗首馬口鱲",
-    "category": "鯉科魚",
-    "size": "5~6",
-    "badge": "",
-    "note": "溪哥",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 50,
-        "total_price": 50
-      }
-    ]
-  },
-  {
-    "id": 98,
-    "name": "菊池氏細鯽",
-    "category": "鯉科魚",
-    "size": "3~4",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 75,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 99,
-    "name": "藍線細鯽",
-    "category": "鯉科魚",
-    "size": "4",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "images/藍線細鯽1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 300,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 100,
-    "name": "麗紋細鯽",
-    "category": "鯉科魚",
-    "size": "2",
-    "badge": "",
-    "note": "",
-    "image": "images/麗紋細鯽1.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 100,
-        "total_price": 100
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "name": "七星沙岩鯉",
-    "category": "鯉科魚",
-    "size": "8~15",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 1500,
-        "total_price": 4500
-      }
-    ]
-  },
-  {
-    "id": 102,
-    "name": "越南紅貓",
-    "category": "鯉科魚",
-    "size": "7~8",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1800,
-        "total_price": 1800
-      }
-    ]
-  },
-  {
-    "id": 103,
-    "name": "台灣石賓",
-    "category": "鯉科魚",
-    "size": "4~6",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 35,
-        "total_price": 35
-      }
-    ]
-  },
-  {
-    "id": 104,
-    "name": "台灣石賓",
-    "category": "鯉科魚",
-    "size": "6~8",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 70,
-        "total_price": 70
-      }
-    ]
-  },
-  {
-    "id": 105,
-    "name": "高身鯝魚",
-    "category": "鯉科魚",
-    "size": "4~6",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 135,
-        "total_price": 135
-      }
-    ]
-  },
-  {
-    "id": 106,
-    "name": "虹彩光唇魚",
-    "category": "鯉科魚",
-    "size": "8~12",
-    "badge": "",
-    "note": "",
-    "image": "images/虹彩光唇魚1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 650,
-        "total_price": 650
-      }
-    ]
-  },
-  {
-    "id": 107,
-    "name": "金吉羅",
-    "category": "鯉科魚",
-    "size": "13~15",
-    "badge": "",
-    "note": "印度產 , 野生 ,週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1250,
-        "total_price": 1250
-      }
-    ]
-  },
-  {
-    "id": 108,
-    "name": "古銅吉羅",
-    "category": "鯉科魚",
-    "size": "15",
-    "badge": "",
-    "note": "印度產 , 野生 ,週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1585,
-        "total_price": 1585
-      }
-    ]
-  },
-  {
-    "id": 109,
-    "name": "甜心檸檬燈",
-    "category": "脂鯉",
-    "size": "2~2.5",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "images/甜心檸檬燈1.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 75,
-        "total_price": 75
-      },
-      {
-        "quantity": 20,
-        "unit_price": 60,
-        "total_price": 1200,
-        "original_price": 1500
-      },
-      {
-        "quantity": 30,
-        "unit_price": 50,
-        "total_price": 1500,
-        "original_price": 2250
-      }
-    ]
-  },
-  {
-    "id": 110,
-    "name": "黑裙",
-    "category": "脂鯉",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 10,
-        "total_price": 300
-      }
-    ]
-  },
-  {
-    "id": 111,
-    "name": "黑箭毒藥",
-    "category": "脂鯉",
-    "size": "2",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "images/黑箭毒藥1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 240,
-        "total_price": 240
-      },
-      {
-        "quantity": 10,
-        "unit_price": 200,
-        "total_price": 2000,
-        "original_price": 2400
-      },
-      {
-        "quantity": 30,
-        "unit_price": 175,
-        "total_price": 5250,
-        "original_price": 7200
-      }
-    ]
-  },
-  {
-    "id": 112,
-    "name": "圓身紅目",
-    "category": "脂鯉",
-    "size": "3",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 10,
-        "total_price": 200
-      }
-    ]
-  },
-  {
-    "id": 113,
-    "name": "鑽石燈",
-    "category": "脂鯉",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 10,
-        "total_price": 300
-      }
-    ]
-  },
-  {
-    "id": 114,
-    "name": "紅月可卡燈",
-    "category": "脂鯉",
-    "size": "2",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "images/紅月可卡燈1.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 120,
-        "total_price": 120
-      },
-      {
-        "quantity": 20,
-        "unit_price": 95,
-        "total_price": 1900,
-        "original_price": 2400
-      },
-      {
-        "quantity": 30,
-        "unit_price": 60,
-        "total_price": 1800,
-        "original_price": 3600
-      }
-    ]
-  },
-  {
-    "id": 115,
-    "name": "超級紅魔鬼",
-    "category": "脂鯉",
-    "size": "2.5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "images/超級紅魔鬼1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 375,
-        "total_price": 1125
-      }
-    ]
-  },
-  {
-    "id": 116,
-    "name": "超級毒藥",
-    "category": "脂鯉",
-    "size": "1.5",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "images/超級毒藥1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 270,
-        "total_price": 270
-      },
-      {
-        "quantity": 10,
-        "unit_price": 230,
-        "total_price": 2300,
-        "original_price": 2700
-      },
-      {
-        "quantity": 30,
-        "unit_price": 180,
-        "total_price": 5400,
-        "original_price": 8100
-      }
-    ]
-  },
-  {
-    "id": 117,
-    "name": "彩虹星鑽",
-    "category": "脂鯉",
-    "size": "3~4",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "images/彩虹星鑽1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 95,
-        "total_price": 95
-      },
-      {
-        "quantity": 20,
-        "unit_price": 70,
-        "total_price": 1400,
-        "original_price": 1900
-      },
-      {
-        "quantity": 30,
-        "unit_price": 40,
-        "total_price": 1200,
-        "original_price": 2850
-      }
-    ]
-  },
-  {
-    "id": 118,
-    "name": "賈拉帕燈",
-    "category": "脂鯉",
-    "size": "3~3.5",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "images/賈拉帕燈1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 200,
-        "total_price": 200
-      },
-      {
-        "quantity": 10,
-        "unit_price": 160,
-        "total_price": 1600,
-        "original_price": 2000
-      },
-      {
-        "quantity": 15,
-        "unit_price": 135,
-        "total_price": 2025,
-        "original_price": 3000
-      }
-    ]
-  },
-  {
-    "id": 119,
-    "name": "雅瑪納牙魚",
-    "category": "脂鯉",
-    "size": "12",
-    "badge": "",
-    "note": "蘇利南產 , 野生 ,,週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 16000,
-        "total_price": 16000
-      }
-    ]
-  },
-  {
-    "id": 120,
-    "name": "日本禿頭鯊",
-    "category": "蝦虎/塘鱧",
-    "size": "5~6",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 70,
-        "total_price": 350
-      }
-    ]
-  },
-  {
-    "id": 121,
-    "name": "日本禿頭鯊",
-    "category": "蝦虎/塘鱧",
-    "size": "7~8",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 115,
-        "total_price": 115
-      }
-    ]
-  },
-  {
-    "id": 122,
-    "name": "犬首禿頭鯊",
-    "category": "蝦虎/塘鱧",
-    "size": "7",
-    "badge": "",
-    "note": "",
-    "image": "images/犬首禿頭鯊1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 780,
-        "total_price": 780
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "name": "末日黃瓜蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "3~4",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "images/末日黃瓜蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 780,
-        "total_price": 2340
-      }
-    ]
-  },
-  {
-    "id": 124,
-    "name": "安妮枝牙蝦虎－公",
-    "category": "蝦虎/塘鱧",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "images/安妮枝牙蝦虎－公1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 560,
-        "total_price": 2800
-      }
-    ]
-  },
-  {
-    "id": 125,
-    "name": "西非綠斑馬禿頭鯊",
-    "category": "蝦虎/塘鱧",
-    "size": "5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1735,
-        "total_price": 1735
-      }
-    ]
-  },
-  {
-    "id": 126,
-    "name": "所羅門韌蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "5",
-    "badge": "",
-    "note": "",
-    "image": "images/所羅門韌蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 3335,
-        "total_price": 3335
-      }
-    ]
-  },
-  {
-    "id": 127,
-    "name": "美麗韌蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "3~4",
-    "badge": "",
-    "note": "",
-    "image": "images/美麗韌蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 780,
-        "total_price": 780
-      }
-    ]
-  },
-  {
-    "id": 128,
-    "name": "紋面韌蝦虎－公",
-    "category": "蝦虎/塘鱧",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "images/紋面韌蝦虎－公1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2670,
-        "total_price": 2670
-      }
-    ]
-  },
-  {
-    "id": 129,
-    "name": "深黑枝牙蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "images/深黑枝牙蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 890,
-        "total_price": 2670
-      }
-    ]
-  },
-  {
-    "id": 130,
-    "name": "紫身枝牙蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "3~4",
-    "badge": "",
-    "note": "（印尼產）",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 560,
-        "total_price": 560
-      }
-    ]
-  },
-  {
-    "id": 131,
-    "name": "菲律賓藍天使",
-    "category": "蝦虎/塘鱧",
-    "size": "7~8",
-    "badge": "",
-    "note": "",
-    "image": "images/菲律賓藍天使1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2670,
-        "total_price": 2670
-      }
-    ]
-  },
-  {
-    "id": 132,
-    "name": "黑金枝牙蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "3",
-    "badge": "",
-    "note": "",
-    "image": "images/黑金枝牙蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 935,
-        "total_price": 935
-      }
-    ]
-  },
-  {
-    "id": 133,
-    "name": "溪鱧",
-    "category": "蝦虎/塘鱧",
-    "size": "3~5",
-    "badge": "",
-    "note": "需提前預訂",
-    "image": "images/溪鱧1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 270,
-        "total_price": 270
-      }
-    ]
-  },
-  {
-    "id": 134,
-    "name": "溪鱧",
-    "category": "蝦虎/塘鱧",
-    "size": "9 up",
-    "badge": "",
-    "note": "",
-    "image": "images/溪鱧1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1115,
-        "total_price": 1115
-      }
-    ]
-  },
-  {
-    "id": 135,
-    "name": "寬帶祼身蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "3",
-    "badge": "",
-    "note": "",
-    "image": "images/寬帶祼身蝦虎.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 160,
-        "total_price": 160
-      }
-    ]
-  },
-  {
-    "id": 136,
-    "name": "諸神島枝牙蝦虎－公",
-    "category": "蝦虎/塘鱧",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "images/諸神島枝牙蝦虎－公1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 5335,
-        "total_price": 5335
-      }
-    ]
-  },
-  {
-    "id": 137,
-    "name": "環帶黃瓜蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "4~8",
-    "badge": "",
-    "note": "",
-    "image": "images/環帶黃瓜蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 400,
-        "total_price": 400
-      }
-    ]
-  },
-  {
-    "id": 138,
-    "name": "賽魯伊天使",
-    "category": "蝦虎/塘鱧",
-    "size": "8",
-    "badge": "",
-    "note": "",
-    "image": "images/賽魯伊天使1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1115,
-        "total_price": 1115
-      }
-    ]
-  },
-  {
-    "id": 139,
-    "name": "蘇拉威西韌蝦虎－公",
-    "category": "蝦虎/塘鱧",
-    "size": "3",
-    "badge": "",
-    "note": "",
-    "image": "images/蘇拉威西韌蝦虎－公1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 780,
-        "total_price": 780
-      }
-    ]
-  },
-  {
-    "id": 140,
-    "name": "美艷枝牙蝦虎－公",
-    "category": "蝦虎/塘鱧",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "images/美艷枝牙蝦虎－公1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2000,
-        "total_price": 2000
-      }
-    ]
-  },
-  {
-    "id": 141,
-    "name": "美艷枝牙蝦虎－母",
-    "category": "蝦虎/塘鱧",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1890,
-        "total_price": 1890
-      }
-    ]
-  },
-  {
-    "id": 142,
-    "name": "奧氏雷蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "4",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1600,
-        "total_price": 1600
-      }
-    ]
-  },
-  {
-    "id": 143,
-    "name": "安達曼韌蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "4",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2135,
-        "total_price": 2135
-      }
-    ]
-  },
-  {
-    "id": 144,
-    "name": "尾斑舌塘鱧",
-    "category": "蝦虎/塘鱧",
-    "size": "3",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 225,
-        "total_price": 225
-      }
-    ]
-  },
-  {
-    "id": 145,
-    "name": "花斑小蜜蜂",
-    "category": "蝦虎/塘鱧",
-    "size": "1~2",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "images/花斑小蜜蜂1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 80,
-        "total_price": 800
-      }
-    ]
-  },
-  {
-    "id": 146,
-    "name": "神島硬皮蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "3~6",
-    "badge": "",
-    "note": "（印尼產）",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 160,
-        "total_price": 160
-      }
-    ]
-  },
-  {
-    "id": 147,
-    "name": "神島硬皮蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "8~10",
-    "badge": "",
-    "note": "（印尼產）",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 445,
-        "total_price": 445
-      }
-    ]
-  },
-  {
-    "id": 148,
-    "name": "淺色項冠蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 4000,
-        "total_price": 4000
-      }
-    ]
-  },
-  {
-    "id": 149,
-    "name": "華氏芒蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "2~5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 4000,
-        "total_price": 4000
-      }
-    ]
-  },
-  {
-    "id": 150,
-    "name": "撒旦鴿鯊",
-    "category": "蝦虎/塘鱧",
-    "size": "8~10",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1000,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 151,
-    "name": "越南黃唇吻蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "images/越南黃唇吻蝦虎.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1070,
-        "total_price": 1070
-      }
-    ]
-  },
-  {
-    "id": 152,
-    "name": "新紅吻蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "3",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "images/新紅吻蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 535,
-        "total_price": 1605
-      }
-    ]
-  },
-  {
-    "id": 153,
-    "name": "戴氏吻蝦虎（紅型）",
-    "category": "蝦虎/塘鱧",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "images/戴氏吻蝦虎（紅型）1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 780,
-        "total_price": 780
-      }
-    ]
-  },
-  {
-    "id": 154,
-    "name": "菲律賓卡氏吻蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "5~6",
-    "badge": "",
-    "note": "",
-    "image": "images/菲律賓卡氏吻蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1000,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 155,
-    "name": "湖南蜜蜂吻蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "6",
-    "badge": "",
-    "note": "",
-    "image": "images/湖南蜜蜂吻蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1070,
-        "total_price": 1070
-      }
-    ]
-  },
-  {
-    "id": 156,
-    "name": "金喉迷宮吻蝦虎－公",
-    "category": "蝦虎/塘鱧",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "images/金喉迷宮吻蝦虎－公1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1115,
-        "total_price": 1115
-      }
-    ]
-  },
-  {
-    "id": 157,
-    "name": "桂花吻蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "4",
-    "badge": "",
-    "note": "",
-    "image": "images/桂花吻蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 445,
-        "total_price": 445
-      }
-    ]
-  },
-  {
-    "id": 158,
-    "name": "越南龍吻蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "4",
-    "badge": "",
-    "note": "",
-    "image": "images/越南龍吻蝦虎1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1225,
-        "total_price": 1225
-      }
-    ]
-  },
-  {
-    "id": 159,
-    "name": "白邊新紅吻蝦虎",
-    "category": "蝦虎/塘鱧",
-    "size": "4",
-    "badge": "",
-    "note": "",
-    "image": "images/白邊新紅吻蝦虎.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1070,
-        "total_price": 1070
-      }
-    ]
-  },
-  {
-    "id": 160,
-    "name": "七彩塘鱧",
-    "category": "蝦虎/塘鱧",
-    "size": "3",
-    "badge": "",
-    "note": "15隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 15,
-        "unit_price": 70,
-        "total_price": 1050
-      }
-    ]
-  },
-  {
-    "id": 161,
-    "name": "七彩塘鱧",
-    "category": "蝦虎/塘鱧",
-    "size": "4",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 90,
-        "total_price": 900
-      }
-    ]
-  },
-  {
-    "id": 162,
-    "name": "橙腹侏儒塘鱧",
-    "category": "蝦虎/塘鱧",
-    "size": "3",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 360,
-        "total_price": 360
-      }
-    ]
-  },
-  {
-    "id": 163,
-    "name": "黃金紅圓尾",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 120,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 164,
-    "name": "黃金紅圓尾（對）",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 220,
-        "total_price": 660
-      }
-    ]
-  },
-  {
-    "id": 165,
-    "name": "黃金藍圓尾",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 120,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 166,
-    "name": "黃金藍圓尾（對）",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 220,
-        "total_price": 660
-      }
-    ]
-  },
-  {
-    "id": 167,
-    "name": "黃彩鱂（對）",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 220,
-        "total_price": 660
-      }
-    ]
-  },
-  {
-    "id": 168,
-    "name": "黑寶貝（對）",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 220,
-        "total_price": 660
-      }
-    ]
-  },
-  {
-    "id": 169,
-    "name": "漂亮寶貝（對）",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 220,
-        "total_price": 660
-      }
-    ]
-  },
-  {
-    "id": 170,
-    "name": "藍色精靈（對）",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 220,
-        "total_price": 660
-      }
-    ]
-  },
-  {
-    "id": 171,
-    "name": "藍彩鱂（對）",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 220,
-        "total_price": 660
-      }
-    ]
-  },
-  {
-    "id": 172,
-    "name": "藍圓尾（對）",
-    "category": "鱂魚",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 220,
-        "total_price": 660
-      }
-    ]
-  },
-  {
-    "id": 173,
-    "name": "方氏吸鰍",
-    "category": "鰍類",
-    "size": "5~6",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "images/方氏吸鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 400,
-        "total_price": 2000
-      }
-    ]
-  },
-  {
-    "id": 174,
-    "name": "台灣纓口鰍",
-    "category": "鰍類",
-    "size": "2~5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 225,
-        "total_price": 225
-      }
-    ]
-  },
-  {
-    "id": 175,
-    "name": "平舟原纓口鰍",
-    "category": "鰍類",
-    "size": "7~9",
-    "badge": "",
-    "note": "",
-    "image": "images/平舟原纓口鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 670,
-        "total_price": 670
-      }
-    ]
-  },
-  {
-    "id": 176,
-    "name": "青花瓷吸鰍",
-    "category": "鰍類",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 670,
-        "total_price": 670
-      }
-    ]
-  },
-  {
-    "id": 177,
-    "name": "雲紋葫蘆琵琶",
-    "category": "鰍類",
-    "size": "5",
-    "badge": "",
-    "note": "",
-    "image": "images/雲紋葫蘆琵琶1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1070,
-        "total_price": 1070
-      }
-    ]
-  },
-  {
-    "id": 178,
-    "name": "廣西秉氏吸鰍",
-    "category": "鰍類",
-    "size": "6",
-    "badge": "",
-    "note": "",
-    "image": "images/廣西秉氏吸鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 800,
-        "total_price": 800
-      }
-    ]
-  },
-  {
-    "id": 179,
-    "name": "海南熊貓爬岩鰍",
-    "category": "鰍類",
-    "size": "3~4",
-    "badge": "",
-    "note": "",
-    "image": "images/海南熊貓爬岩鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 225,
-        "total_price": 225
-      }
-    ]
-  },
-  {
-    "id": 180,
-    "name": "馬哈坎原吸鰍",
-    "category": "鰍類",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1200,
-        "total_price": 1200
-      }
-    ]
-  },
-  {
-    "id": 181,
-    "name": "金環鼠",
-    "category": "鰍類",
-    "size": "6~8",
-    "badge": "",
-    "note": "",
-    "image": "images/金環鼠1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 780,
-        "total_price": 780
-      }
-    ]
-  },
-  {
-    "id": 182,
-    "name": "黑金環鼠",
-    "category": "鰍類",
-    "size": "6~7",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 560,
-        "total_price": 2800
-      }
-    ]
-  },
-  {
-    "id": 183,
-    "name": "四川虎紋吸鰍",
-    "category": "鰍類",
-    "size": "5~6",
-    "badge": "",
-    "note": "",
-    "image": "images/四川虎紋吸鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1070,
-        "total_price": 1070
-      }
-    ]
-  },
-  {
-    "id": 184,
-    "name": "沈氏間爬岩鰍",
-    "category": "鰍類",
-    "size": "4",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 535,
-        "total_price": 535
-      }
-    ]
-  },
-  {
-    "id": 185,
-    "name": "金沙鰍",
-    "category": "鰍類",
-    "size": "8~10",
-    "badge": "",
-    "note": "",
-    "image": "images/金沙鰍1.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2670,
-        "total_price": 2670
-      }
-    ]
-  },
-  {
-    "id": 186,
-    "name": "短身金沙鰍",
-    "category": "鰍類",
-    "size": "7~8",
-    "badge": "",
-    "note": "",
-    "image": "images/短身金沙鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2225,
-        "total_price": 2225
-      }
-    ]
-  },
-  {
-    "id": 187,
-    "name": "越南華吸鰍",
-    "category": "鰍類",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "images/越南華吸鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 780,
-        "total_price": 780
-      }
-    ]
-  },
-  {
-    "id": 188,
-    "name": "越南小華爬岩鰍",
-    "category": "鰍類",
-    "size": "5~6",
-    "badge": "",
-    "note": "",
-    "image": "images/越南小華爬岩鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 625,
-        "total_price": 625
-      }
-    ]
-  },
-  {
-    "id": 189,
-    "name": "峨嵋山吸鰍",
-    "category": "鰍類",
-    "size": "6~8",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 760,
-        "total_price": 760
-      }
-    ]
-  },
-  {
-    "id": 190,
-    "name": "花格平鰭鰍",
-    "category": "鰍類",
-    "size": "6~7",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 780,
-        "total_price": 780
-      }
-    ]
-  },
-  {
-    "id": 191,
-    "name": "中華花鰍",
-    "category": "鰍類",
-    "size": "2~4",
-    "badge": "",
-    "note": "",
-    "image": "images/中華花鰍.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 45,
-        "total_price": 45
-      }
-    ]
-  },
-  {
-    "id": 192,
-    "name": "中華花鰍",
-    "category": "鰍類",
-    "size": "5~8",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "images/中華花鰍.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 70,
-        "total_price": 700
-      }
-    ]
-  },
-  {
-    "id": 193,
-    "name": "疣背小條鰍（翠綠紅尾鰍）",
-    "category": "鰍類",
-    "size": "5~7",
-    "badge": "",
-    "note": "",
-    "image": "images/疣背小條鰍（翠綠紅尾鰍）1.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 845,
-        "total_price": 845
-      }
-    ]
-  },
-  {
-    "id": 194,
-    "name": "雲南粉紅鰍",
-    "category": "鰍類",
-    "size": "5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2400,
-        "total_price": 2400
-      }
-    ]
-  },
-  {
-    "id": 195,
-    "name": "尤里西斯",
-    "category": "稻田魚",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 155,
-        "total_price": 775
-      }
-    ]
-  },
-  {
-    "id": 196,
-    "name": "紅白稻田魚",
-    "category": "稻田魚",
-    "size": "2",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 85,
-        "total_price": 850
-      }
-    ]
-  },
-  {
-    "id": 197,
-    "name": "黑拉美",
-    "category": "稻田魚",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 185,
-        "total_price": 925
-      }
-    ]
-  },
-  {
-    "id": 198,
-    "name": "印度女王燈",
-    "category": "稻田魚",
-    "size": "2",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 199,
-    "name": "海南花尾青鱂",
-    "category": "稻田魚",
-    "size": "3",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 310,
-        "total_price": 310
-      }
-    ]
-  },
-  {
-    "id": 200,
-    "name": "七彩霓虹",
-    "category": "彩虹魚/燕子",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 20,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 201,
-    "name": "太平洋燕子",
-    "category": "彩虹魚/燕子",
-    "size": "2.5",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 30,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 202,
-    "name": "血叉尾黃金珍珠燕子",
-    "category": "彩虹魚/燕子",
-    "size": "1.5~2",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 25,
-        "total_price": 1250
-      }
-    ]
-  },
-  {
-    "id": 203,
-    "name": "藍鑽燕子",
-    "category": "彩虹魚/燕子",
-    "size": "2",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "images/藍鑽燕子1.png",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 135,
-        "total_price": 135
-      },
-      {
-        "quantity": 5,
-        "unit_price": 125,
-        "total_price": 625,
-        "original_price": 675
-      }
-    ]
-  },
-  {
-    "id": 204,
-    "name": "七彩霓虹（野生）",
-    "category": "彩虹魚/燕子",
-    "size": "4",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 170,
-        "total_price": 170
-      },
-      {
-        "quantity": 5,
-        "unit_price": 150,
-        "total_price": 750,
-        "original_price": 850
-      }
-    ]
-  },
-  {
-    "id": 205,
-    "name": "白帆塔瓦美人",
-    "category": "彩虹魚/燕子",
-    "size": "4",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 600,
-        "total_price": 600
-      },
-      {
-        "quantity": 5,
-        "unit_price": 535,
-        "total_price": 2675,
-        "original_price": 3000
-      }
-    ]
-  },
-  {
-    "id": 206,
-    "name": "石美人",
-    "category": "彩虹魚/燕子",
-    "size": "5",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 45,
-        "total_price": 45
-      },
-      {
-        "quantity": 5,
-        "unit_price": 40,
-        "total_price": 200,
-        "original_price": 225
-      }
-    ]
-  },
-  {
-    "id": 207,
-    "name": "紅尾美人",
-    "category": "彩虹魚/燕子",
-    "size": "7",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 25,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 208,
-    "name": "紅鰭藍帶美人",
-    "category": "彩虹魚/燕子",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 50,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 209,
-    "name": "紅鰭藍帶美人",
-    "category": "彩虹魚/燕子",
-    "size": "4",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 70,
-        "total_price": 1400
-      }
-    ]
-  },
-  {
-    "id": 210,
-    "name": "紅鰭藍帶美人",
-    "category": "彩虹魚/燕子",
-    "size": "5",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 100,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 211,
-    "name": "黃金美人",
-    "category": "彩虹魚/燕子",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 50,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 212,
-    "name": "黃金美人",
-    "category": "彩虹魚/燕子",
-    "size": "5",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 85,
-        "total_price": 1700
-      }
-    ]
-  },
-  {
-    "id": 213,
-    "name": "圓身電光美人",
-    "category": "彩虹魚/燕子",
-    "size": "2",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 60,
-        "total_price": 1200
-      }
-    ]
-  },
-  {
-    "id": 214,
-    "name": "電光美人",
-    "category": "彩虹魚/燕子",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 10,
-        "total_price": 300
-      }
-    ]
-  },
-  {
-    "id": 215,
-    "name": "電光美人",
-    "category": "彩虹魚/燕子",
-    "size": "4",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 15,
-        "total_price": 450
-      }
-    ]
-  },
-  {
-    "id": 216,
-    "name": "燕子美人",
-    "category": "彩虹魚/燕子",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 20,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 217,
-    "name": "藍美人",
-    "category": "彩虹魚/燕子",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 35,
-        "total_price": 1050
-      }
-    ]
-  },
-  {
-    "id": 218,
-    "name": "藍美人",
-    "category": "彩虹魚/燕子",
-    "size": "4",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 50,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 219,
-    "name": "藍美人",
-    "category": "彩虹魚/燕子",
-    "size": "5",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 70,
-        "total_price": 1400
-      }
-    ]
-  },
-  {
-    "id": 220,
-    "name": "藍美人",
-    "category": "彩虹魚/燕子",
-    "size": "6",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 95,
-        "total_price": 1900
-      }
-    ]
-  },
-  {
-    "id": 221,
-    "name": "蘇西美人",
-    "category": "彩虹魚/燕子",
-    "size": "9",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 600,
-        "total_price": 600
-      },
-      {
-        "quantity": 5,
-        "unit_price": 550,
-        "total_price": 2750,
-        "original_price": 3000
-      }
-    ]
-  },
-  {
-    "id": 222,
     "name": "明多羅龍口鰻",
     "category": "汽水魚",
     "size": "15~20",
@@ -3888,7 +17,7 @@
     ]
   },
   {
-    "id": 223,
+    "id": 2,
     "name": "鱸鰻",
     "category": "汽水魚",
     "size": "20~25",
@@ -3905,7 +34,7 @@
     ]
   },
   {
-    "id": 224,
+    "id": 3,
     "name": "小丑蛇鱔",
     "category": "汽水魚",
     "size": "25~30",
@@ -3922,47 +51,7 @@
     ]
   },
   {
-    "id": 225,
-    "name": "新幾內亞淡水比目魚",
-    "category": "汽水魚",
-    "size": "5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 340,
-        "total_price": 340
-      }
-    ]
-  },
-  {
-    "id": 226,
-    "name": "雙鬚淡水石狗公",
-    "category": "汽水魚",
-    "size": "6~8",
-    "badge": "",
-    "note": "量多優惠",
-    "image": "images/雙鬚淡水石狗公1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1480,
-        "total_price": 1480
-      },
-      {
-        "quantity": 3,
-        "unit_price": 1355,
-        "total_price": 4065,
-        "original_price": 4440
-      }
-    ]
-  },
-  {
-    "id": 227,
+    "id": 4,
     "name": "中國淡水比目魚",
     "category": "汽水魚",
     "size": "6~7",
@@ -3979,7 +68,7 @@
     ]
   },
   {
-    "id": 228,
+    "id": 5,
     "name": "卵鰨",
     "category": "汽水魚",
     "size": "5~6",
@@ -3996,7 +85,7 @@
     ]
   },
   {
-    "id": 229,
+    "id": 6,
     "name": "印尼黃尾湯鯉",
     "category": "汽水魚",
     "size": "4~5",
@@ -4025,1503 +114,7 @@
     ]
   },
   {
-    "id": 230,
-    "name": "無眼喀鰍",
-    "category": "洞穴魚",
-    "size": "4~5",
-    "badge": "",
-    "note": "",
-    "image": "images/無眼喀鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 4620,
-        "total_price": 4620
-      }
-    ]
-  },
-  {
-    "id": 231,
-    "name": "綠皮中華刺鰍",
-    "category": "其他魚類",
-    "size": "8~10",
-    "badge": "",
-    "note": "",
-    "image": "images/綠皮中華刺鰍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 695,
-        "total_price": 695
-      }
-    ]
-  },
-  {
-    "id": 232,
-    "name": "巧克力象鼻龍",
-    "category": "其他魚類",
-    "size": "20~22",
-    "badge": "",
-    "note": "",
-    "image": "images/巧克力象鼻龍1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2310,
-        "total_price": 2310
-      }
-    ]
-  },
-  {
-    "id": 233,
-    "name": "黃金中華刺鰍（潮汕產）",
-    "category": "其他魚類",
-    "size": "10",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 1385,
-        "total_price": 4155
-      }
-    ]
-  },
-  {
-    "id": 234,
-    "name": "網紋刺鰍（西雙版納產）",
-    "category": "其他魚類",
-    "size": "20~30",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 1925,
-        "total_price": 5775
-      }
-    ]
-  },
-  {
-    "id": 235,
-    "name": "寮國刺鰍",
-    "category": "其他魚類",
-    "size": "10~15",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 2000,
-        "total_price": 6000
-      }
-    ]
-  },
-  {
-    "id": 236,
-    "name": "金頭藍仙子",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 237,
-    "name": "粉紅仙子",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 238,
-    "name": "黃金仙子",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 239,
-    "name": "螢光綠四間",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 20,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 240,
-    "name": "紅磚",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 15,
-        "total_price": 450
-      }
-    ]
-  },
-  {
-    "id": 241,
-    "name": "紫磚",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 20,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 242,
-    "name": "黃金磚",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 20,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 243,
-    "name": "綠磚",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 15,
-        "total_price": 450
-      }
-    ]
-  },
-  {
-    "id": 244,
-    "name": "翡翠綠磚",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 15,
-        "total_price": 450
-      }
-    ]
-  },
-  {
-    "id": 245,
-    "name": "藍磚",
-    "category": "螢光魚",
-    "size": "3",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 20,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 246,
-    "name": "巧克力蝦（A級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 15,
-        "total_price": 750
-      }
-    ]
-  },
-  {
-    "id": 247,
-    "name": "金背黃金米蝦（A級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "特大、50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 15,
-        "total_price": 750
-      }
-    ]
-  },
-  {
-    "id": 248,
-    "name": "香吉士（A級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 249,
-    "name": "雪球蝦（A級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 250,
-    "name": "黃金米蝦（A級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 251,
-    "name": "極火蝦",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "特級、50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 252,
-    "name": "綠米蝦（A級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 15,
-        "total_price": 750
-      }
-    ]
-  },
-  {
-    "id": 253,
-    "name": "綠翡翠",
-    "category": "新米蝦",
-    "size": "L",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 15,
-        "total_price": 750
-      }
-    ]
-  },
-  {
-    "id": 254,
-    "name": "綠翡翠",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 15,
-        "total_price": 750
-      }
-    ]
-  },
-  {
-    "id": 255,
-    "name": "藍絲絨（A級）",
-    "category": "新米蝦",
-    "size": "L",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 256,
-    "name": "藍絲絨（A級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 257,
-    "name": "藍絲絨（S級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 20,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 258,
-    "name": "紅琉璃（A級）",
-    "category": "新米蝦",
-    "size": "XL",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 259,
-    "name": "大紅木紋",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 375,
-        "total_price": 7500
-      }
-    ]
-  },
-  {
-    "id": 260,
-    "name": "可樂蝦",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 190,
-        "total_price": 3800
-      }
-    ]
-  },
-  {
-    "id": 261,
-    "name": "白蘭花",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 95,
-        "total_price": 2850
-      }
-    ]
-  },
-  {
-    "id": 262,
-    "name": "白襪蝦",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 85,
-        "total_price": 2550
-      }
-    ]
-  },
-  {
-    "id": 263,
-    "name": "乳牛",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 115,
-        "total_price": 3450
-      }
-    ]
-  },
-  {
-    "id": 264,
-    "name": "帝格里虎",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 190,
-        "total_price": 3800
-      }
-    ]
-  },
-  {
-    "id": 265,
-    "name": "星點木紋",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 190,
-        "total_price": 3800
-      }
-    ]
-  },
-  {
-    "id": 266,
-    "name": "紅蘭花",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 150,
-        "total_price": 3000
-      }
-    ]
-  },
-  {
-    "id": 267,
-    "name": "拳擊蝦",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 190,
-        "total_price": 3800
-      }
-    ]
-  },
-  {
-    "id": 268,
-    "name": "迷你藍",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 190,
-        "total_price": 3800
-      }
-    ]
-  },
-  {
-    "id": 269,
-    "name": "斑馬雪蝦",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 20,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 270,
-    "name": "黃斑蝦",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 150,
-        "total_price": 3000
-      }
-    ]
-  },
-  {
-    "id": 271,
-    "name": "黃鼻蝦",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 150,
-        "total_price": 3000
-      }
-    ]
-  },
-  {
-    "id": 272,
-    "name": "黃頰蝦",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 150,
-        "total_price": 3000
-      }
-    ]
-  },
-  {
-    "id": 273,
-    "name": "藍尾蜂",
-    "category": "蘇拉威西蝦",
-    "size": "0.7~1",
-    "badge": "",
-    "note": "週五前預訂、30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 60,
-        "total_price": 1800
-      }
-    ]
-  },
-  {
-    "id": 274,
-    "name": "印度白斑馬",
-    "category": "野生蝦",
-    "size": "L",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 50,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 275,
-    "name": "印度斑馬",
-    "category": "野生蝦",
-    "size": "L",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 30,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 276,
-    "name": "印度綠米蝦",
-    "category": "野生蝦",
-    "size": "L",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 15,
-        "total_price": 450
-      }
-    ]
-  },
-  {
-    "id": 277,
-    "name": "巨人網球蝦",
-    "category": "野生蝦",
-    "size": "4~5",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "images/巨人網球蝦1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 300,
-        "total_price": 1500
-      }
-    ]
-  },
-  {
-    "id": 278,
-    "name": "白帶匙指蝦（蜜蜂網球蝦）",
-    "category": "野生蝦",
-    "size": "3~5",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "images/白帶匙指蝦（蜜蜂網球蝦）1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 600,
-        "total_price": 1800
-      }
-    ]
-  },
-  {
-    "id": 279,
-    "name": "白帶匙指蝦（蜜蜂網球蝦）",
-    "category": "野生蝦",
-    "size": "1~2",
-    "badge": "",
-    "note": "",
-    "image": "images/白帶匙指蝦（蜜蜂網球蝦）1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 500,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 280,
-    "name": "石紋匙指蝦（石紋網球蝦）",
-    "category": "野生蝦",
-    "size": "4~6",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "images/石紋匙指蝦（石紋網球蝦）1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 100,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 281,
-    "name": "石紋匙指蝦（石紋網球蝦）",
-    "category": "野生蝦",
-    "size": "2~3",
-    "badge": "",
-    "note": "",
-    "image": "images/石紋匙指蝦（石紋網球蝦）1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 70,
-        "total_price": 70
-      }
-    ]
-  },
-  {
-    "id": 282,
-    "name": "西瓜蝦（細額沼蝦）",
-    "category": "野生蝦",
-    "size": "3~5",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 400,
-        "total_price": 400
-      }
-    ]
-  },
-  {
-    "id": 283,
-    "name": "白瓷娃娃蟹",
-    "category": "蟹",
-    "size": "M",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "images/白瓷娃娃蟹1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 155,
-        "total_price": 775
-      }
-    ]
-  },
-  {
-    "id": 284,
-    "name": "陶瓷娃娃蟹",
-    "category": "蟹",
-    "size": "M",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "images/陶瓷娃娃蟹1.jpg",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 80,
-        "total_price": 800
-      }
-    ]
-  },
-  {
-    "id": 285,
-    "name": "黃金蟹",
-    "category": "蟹",
-    "size": "L",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 110,
-        "total_price": 550
-      }
-    ]
-  },
-  {
-    "id": 286,
-    "name": "綠瓷娃娃蟹",
-    "category": "蟹",
-    "size": "M",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 155,
-        "total_price": 775
-      }
-    ]
-  },
-  {
-    "id": 287,
-    "name": "熔岩蟹（林投樹蟹）",
-    "category": "蟹",
-    "size": "M",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 80,
-        "total_price": 80
-      }
-    ]
-  },
-  {
-    "id": 288,
-    "name": "火山破壞者",
-    "category": "螯蝦",
-    "size": "5~6",
-    "badge": "",
-    "note": "人工、5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 270,
-        "total_price": 1350
-      }
-    ]
-  },
-  {
-    "id": 289,
-    "name": "火山破壞者",
-    "category": "螯蝦",
-    "size": "7~8",
-    "badge": "",
-    "note": "人工、5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 385,
-        "total_price": 1925
-      }
-    ]
-  },
-  {
-    "id": 290,
-    "name": "孔雀帝王斑馬",
-    "category": "螯蝦",
-    "size": "4~5",
-    "badge": "",
-    "note": "人工",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1080,
-        "total_price": 1080
-      }
-    ]
-  },
-  {
-    "id": 291,
-    "name": "孔雀帝王斑馬",
-    "category": "螯蝦",
-    "size": "5.5~6.5",
-    "badge": "",
-    "note": "人工",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1540,
-        "total_price": 1540
-      }
-    ]
-  },
-  {
-    "id": 292,
-    "name": "白金狼蝦",
-    "category": "螯蝦",
-    "size": "4~5",
-    "badge": "",
-    "note": "人工",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1155,
-        "total_price": 1155
-      }
-    ]
-  },
-  {
-    "id": 293,
-    "name": "巧克力螺",
-    "category": "螺",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂、50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 25,
-        "total_price": 1250
-      }
-    ]
-  },
-  {
-    "id": 294,
-    "name": "指環蜑螺",
-    "category": "螺",
-    "size": "S",
-    "badge": "",
-    "note": "20隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 20,
-        "unit_price": 15,
-        "total_price": 300
-      }
-    ]
-  },
-  {
-    "id": 295,
-    "name": "黑金剛螺",
-    "category": "螺",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂、50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 20,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 296,
-    "name": "蜜蜂角螺",
-    "category": "螺",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂、50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 20,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 297,
-    "name": "羊角螺",
-    "category": "螺",
-    "size": "M",
-    "badge": "",
-    "note": "50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 298,
-    "name": "黃金螺",
-    "category": "螺",
-    "size": "S",
-    "badge": "",
-    "note": "30隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 30,
-        "unit_price": 10,
-        "total_price": 300
-      }
-    ]
-  },
-  {
-    "id": 299,
-    "name": "瘤蜷",
-    "category": "螺",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂、50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 10,
-        "total_price": 500
-      }
-    ]
-  },
-  {
-    "id": 300,
-    "name": "橙兔螺",
-    "category": "螺",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂、50隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 50,
-        "unit_price": 80,
-        "total_price": 4000
-      }
-    ]
-  },
-  {
-    "id": 301,
-    "name": "豹紋守宮",
-    "category": "爬蟲",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂、3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 650,
-        "total_price": 1950
-      }
-    ]
-  },
-  {
-    "id": 302,
-    "name": "豹紋守宮（全日蝕）",
-    "category": "爬蟲",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 3540,
-        "total_price": 3540
-      }
-    ]
-  },
-  {
-    "id": 303,
-    "name": "豹紋守宮（雪花白酒）",
-    "category": "爬蟲",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1465,
-        "total_price": 1465
-      }
-    ]
-  },
-  {
-    "id": 304,
-    "name": "豹紋守宮（惡魔白酒）",
-    "category": "爬蟲",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1850,
-        "total_price": 1850
-      }
-    ]
-  },
-  {
-    "id": 305,
-    "name": "豹紋守宮（超雪）",
-    "category": "爬蟲",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1850,
-        "total_price": 1850
-      }
-    ]
-  },
-  {
-    "id": 306,
-    "name": "豹紋守宮（綜合成體）",
-    "category": "爬蟲",
-    "size": "XL",
-    "badge": "",
-    "note": "週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1420,
-        "total_price": 1420
-      }
-    ]
-  },
-  {
-    "id": 307,
-    "name": "豹紋守宮（暴風雪）",
-    "category": "爬蟲",
-    "size": "M",
-    "badge": "",
-    "note": "週五前預訂",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2620,
-        "total_price": 2620
-      }
-    ]
-  },
-  {
-    "id": 308,
-    "name": "珍珠鱉",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "10隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 10,
-        "unit_price": 85,
-        "total_price": 850
-      }
-    ]
-  },
-  {
-    "id": 309,
-    "name": "蘇卡達龜",
-    "category": "爬蟲",
-    "size": "4",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 2465,
-        "total_price": 2465
-      }
-    ]
-  },
-  {
-    "id": 310,
-    "name": "中華斑龜",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 40,
-        "total_price": 200
-      }
-    ]
-  },
-  {
-    "id": 311,
-    "name": "地圖龜",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 200,
-        "total_price": 1000
-      }
-    ]
-  },
-  {
-    "id": 312,
-    "name": "西非側頸龜",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 1155,
-        "total_price": 2310
-      }
-    ]
-  },
-  {
-    "id": 313,
-    "name": "巴西龜",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 120,
-        "total_price": 600
-      }
-    ]
-  },
-  {
-    "id": 314,
-    "name": "紅肚甜甜圈龜",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "3隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 3,
-        "unit_price": 280,
-        "total_price": 840
-      }
-    ]
-  },
-  {
-    "id": 315,
-    "name": "紅臉蛋龜",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 1,
-        "unit_price": 1850,
-        "total_price": 1850
-      }
-    ]
-  },
-  {
-    "id": 316,
-    "name": "黃耳龜",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "5隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 5,
-        "unit_price": 155,
-        "total_price": 775
-      }
-    ]
-  },
-  {
-    "id": 317,
-    "name": "圓澳龜",
-    "category": "爬蟲",
-    "size": "3",
-    "badge": "",
-    "note": "2隻才出貨",
-    "image": "",
-    "soldOut": 0,
-    "tiers": [
-      {
-        "quantity": 2,
-        "unit_price": 465,
-        "total_price": 930
-      }
-    ]
-  },
-  {
-    "id": 318,
+    "id": 7,
     "name": "皮卡丘角蛙",
     "category": "兩棲",
     "size": "3",
@@ -5538,7 +131,7 @@
     ]
   },
   {
-    "id": 319,
+    "id": 8,
     "name": "草莓角蛙",
     "category": "兩棲",
     "size": "3",
@@ -5555,7 +148,7 @@
     ]
   },
   {
-    "id": 320,
+    "id": 9,
     "name": "超級皮卡丘",
     "category": "兩棲",
     "size": "3",
@@ -5572,7 +165,7 @@
     ]
   },
   {
-    "id": 321,
+    "id": 10,
     "name": "黃金角蛙",
     "category": "兩棲",
     "size": "3",
@@ -5589,7 +182,7 @@
     ]
   },
   {
-    "id": 322,
+    "id": 11,
     "name": "綠角蛙",
     "category": "兩棲",
     "size": "3",
@@ -5606,7 +199,7 @@
     ]
   },
   {
-    "id": 323,
+    "id": 12,
     "name": "綠蝴蝶角蛙",
     "category": "兩棲",
     "size": "3",
@@ -5623,7 +216,7 @@
     ]
   },
   {
-    "id": 324,
+    "id": 13,
     "name": "薄荷藍角蛙",
     "category": "兩棲",
     "size": "3",
@@ -5640,7 +233,7 @@
     ]
   },
   {
-    "id": 325,
+    "id": 14,
     "name": "小丑蛙",
     "category": "兩棲",
     "size": "3",
@@ -5657,7 +250,7 @@
     ]
   },
   {
-    "id": 326,
+    "id": 15,
     "name": "非洲牛蛙",
     "category": "兩棲",
     "size": "3",
@@ -5674,7 +267,7 @@
     ]
   },
   {
-    "id": 327,
+    "id": 16,
     "name": "巴西火龍",
     "category": "兩棲",
     "size": "5~6",
@@ -5691,9 +284,1583 @@
     ]
   },
   {
-    "id": 328,
+    "id": 17,
+    "name": "綠皮中華刺鰍",
+    "category": "其他魚類",
+    "size": "8~10",
+    "badge": "",
+    "note": "",
+    "image": "images/綠皮中華刺鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 695,
+        "total_price": 695
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "巧克力象鼻龍",
+    "category": "其他魚類",
+    "size": "20~22",
+    "badge": "",
+    "note": "",
+    "image": "images/巧克力象鼻龍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2310,
+        "total_price": 2310
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "網紋刺鰍（西雙版納產）",
+    "category": "其他魚類",
+    "size": "20~30",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 1925,
+        "total_price": 5775
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "寮國刺鰍",
+    "category": "其他魚類",
+    "size": "10~15",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 2000,
+        "total_price": 6000
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "繁星豹鯨",
+    "category": "其他魚類",
+    "size": "5~6",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 120,
+        "total_price": 360
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "蛇魚",
+    "category": "其他魚類",
+    "size": "5",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 12,
+        "total_price": 240
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "印尼推土機",
+    "category": "其他魚類",
+    "size": "7~8",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 650,
+        "total_price": 650
+      },
+      {
+        "quantity": 3,
+        "unit_price": 540,
+        "total_price": 1620,
+        "original_price": 1950
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "豹紋守宮",
+    "category": "爬蟲",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂、3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 650,
+        "total_price": 1950
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "豹紋守宮（全日蝕）",
+    "category": "爬蟲",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 3540,
+        "total_price": 3540
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "豹紋守宮（雪花白酒）",
+    "category": "爬蟲",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1465,
+        "total_price": 1465
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "豹紋守宮（惡魔白酒）",
+    "category": "爬蟲",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1850,
+        "total_price": 1850
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "豹紋守宮（超雪）",
+    "category": "爬蟲",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1850,
+        "total_price": 1850
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "豹紋守宮（綜合成體）",
+    "category": "爬蟲",
+    "size": "XL",
+    "badge": "",
+    "note": "需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1420,
+        "total_price": 1420
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "豹紋守宮（暴風雪）",
+    "category": "爬蟲",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2620,
+        "total_price": 2620
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "珍珠鱉",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 85,
+        "total_price": 850
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "蘇卡達龜",
+    "category": "爬蟲",
+    "size": "4",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2465,
+        "total_price": 2465
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "中華斑龜",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 40,
+        "total_price": 200
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "地圖龜",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 200,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "西非側頸龜",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "2隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 2,
+        "unit_price": 1155,
+        "total_price": 2310
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "巴西龜",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 120,
+        "total_price": 600
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "紅肚甜甜圈龜",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 280,
+        "total_price": 840
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "紅臉蛋龜",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1850,
+        "total_price": 1850
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "黃耳龜",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 155,
+        "total_price": 775
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "圓澳龜",
+    "category": "爬蟲",
+    "size": "3",
+    "badge": "",
+    "note": "2隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 2,
+        "unit_price": 465,
+        "total_price": 930
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "金鷹",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 290,
+        "total_price": 2900
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "金鷹",
+    "category": "非洲慈鯛",
+    "size": "6",
+    "badge": "",
+    "note": "8隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 8,
+        "unit_price": 360,
+        "total_price": 2880
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "酷斯拉",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 670,
+        "total_price": 3350
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "酷斯拉",
+    "category": "非洲慈鯛",
+    "size": "10",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 845,
+        "total_price": 2535
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "酷斯拉",
+    "category": "非洲慈鯛",
+    "size": "12",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 1025,
+        "total_price": 3075
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "酷斯拉",
+    "category": "非洲慈鯛",
+    "size": "15",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 1180,
+        "total_price": 3540
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "銀邊金三點",
+    "category": "非洲慈鯛",
+    "size": "12",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 600,
+        "total_price": 1800
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "靚三點",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 370,
+        "total_price": 1850
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "藍排骨",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 400,
+        "total_price": 2000
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "藍寶石",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 400,
+        "total_price": 2000
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "企鵝",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 260,
+        "total_price": 2600
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "紅頂勾鼻",
+    "category": "非洲慈鯛",
+    "size": "6",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 315,
+        "total_price": 1575
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "紅頂勾鼻",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 335,
+        "total_price": 1675
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "紅頂藍雀",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 500,
+        "total_price": 2500
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "紅雞",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 180,
+        "total_price": 1800
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "紅雞",
+    "category": "非洲慈鯛",
+    "size": "10",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 1335,
+        "total_price": 4005
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "桔色奇倫巴",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "15隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 15,
+        "unit_price": 160,
+        "total_price": 2400
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "桔色奇倫巴",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 260,
+        "total_price": 2600
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "桔色奇倫巴",
+    "category": "非洲慈鯛",
+    "size": "10",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 670,
+        "total_price": 3350
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "海豚斑馬",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 260,
+        "total_price": 2600
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "黃珍珠王子",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 260,
+        "total_price": 1300
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "獅子阿芙拉",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 260,
+        "total_price": 2600
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "達克雷爾",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 260,
+        "total_price": 1300
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "達克雷爾",
+    "category": "非洲慈鯛",
+    "size": "6",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 290,
+        "total_price": 1450
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "緋紅天使（河馬）",
+    "category": "非洲慈鯛",
+    "size": "10",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 670,
+        "total_price": 3350
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "歐洛拉天使",
+    "category": "非洲慈鯛",
+    "size": "3",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 100,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "盧旺達孔雀",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 445,
+        "total_price": 2225
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "藍花孔雀",
+    "category": "非洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 500,
+        "total_price": 2500
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "曼達尼黃金珍珠虎",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "需提前預訂、3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 1335,
+        "total_price": 4005
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "瑪莎瓦紅線天使",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 170,
+        "total_price": 1700
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "瑪莎瓦紅線天使",
+    "category": "非洲慈鯛",
+    "size": "9",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 835,
+        "total_price": 2505
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "噴點珍珠虎",
+    "category": "非洲慈鯛",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 245,
+        "total_price": 1225
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "噴點珍珠虎",
+    "category": "非洲慈鯛",
+    "size": "4",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 270,
+        "total_price": 1350
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "穆麗金頭珍珠虎",
+    "category": "非洲慈鯛",
+    "size": "5",
+    "badge": "",
+    "note": "需提前預訂、5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 1115,
+        "total_price": 5575
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "穆麗金頭珍珠虎",
+    "category": "非洲慈鯛",
+    "size": "8",
+    "badge": "",
+    "note": "需提前預訂、3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 1670,
+        "total_price": 5010
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "無眼喀鰍",
+    "category": "洞穴魚",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/無眼喀鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 4620,
+        "total_price": 4620
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "一顆心血鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "8",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 40,
+        "total_price": 400
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "一顆心血鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "10",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 60,
+        "total_price": 300
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "一顆心血鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "12",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 85,
+        "total_price": 425
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "一顆心紫鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "8",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 45,
+        "total_price": 450
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "一顆心紫鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "10",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 70,
+        "total_price": 350
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "一顆心紫鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "12",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 95,
+        "total_price": 475
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "一顆心黃鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "7",
+    "badge": "",
+    "note": "15隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 15,
+        "unit_price": 45,
+        "total_price": 675
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "血鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "10",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 50,
+        "total_price": 250
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "血鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "12",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 70,
+        "total_price": 350
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "血鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "14",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 100,
+        "total_price": 300
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "血鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "16",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 190,
+        "total_price": 570
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "紫鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "10",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 50,
+        "total_price": 250
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "紫鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "12",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 90,
+        "total_price": 450
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "紫鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "14",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 125,
+        "total_price": 375
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "紫鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "16",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 200,
+        "total_price": 600
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "黃鸚鵡",
+    "category": "美洲慈鯛",
+    "size": "8",
+    "badge": "",
+    "note": "15隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 15,
+        "unit_price": 45,
+        "total_price": 675
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "甜心檸檬燈",
+    "category": "脂鯉",
+    "size": "2~2.5",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "images/甜心檸檬燈1.png",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 75,
+        "total_price": 75
+      },
+      {
+        "quantity": 20,
+        "unit_price": 60,
+        "total_price": 1200,
+        "original_price": 1500
+      },
+      {
+        "quantity": 30,
+        "unit_price": 50,
+        "total_price": 1500,
+        "original_price": 2250
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "黑裙",
+    "category": "脂鯉",
+    "size": "3",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 10,
+        "total_price": 300
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "黑箭毒藥",
+    "category": "脂鯉",
+    "size": "2",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "images/黑箭毒藥1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 240,
+        "total_price": 240
+      },
+      {
+        "quantity": 10,
+        "unit_price": 200,
+        "total_price": 2000,
+        "original_price": 2400
+      },
+      {
+        "quantity": 30,
+        "unit_price": 175,
+        "total_price": 5250,
+        "original_price": 7200
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "圓身紅目",
+    "category": "脂鯉",
+    "size": "3",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 10,
+        "total_price": 200
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "鑽石燈",
+    "category": "脂鯉",
+    "size": "3",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 10,
+        "total_price": 300
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "紅月可卡燈",
+    "category": "脂鯉",
+    "size": "2",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "images/紅月可卡燈1.png",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 120,
+        "total_price": 120
+      },
+      {
+        "quantity": 20,
+        "unit_price": 95,
+        "total_price": 1900,
+        "original_price": 2400
+      },
+      {
+        "quantity": 30,
+        "unit_price": 60,
+        "total_price": 1800,
+        "original_price": 3600
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "超級紅魔鬼",
+    "category": "脂鯉",
+    "size": "2.5",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "images/超級紅魔鬼1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 375,
+        "total_price": 1125
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "超級毒藥",
+    "category": "脂鯉",
+    "size": "1.5",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "images/超級毒藥1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 270,
+        "total_price": 270
+      },
+      {
+        "quantity": 10,
+        "unit_price": 230,
+        "total_price": 2300,
+        "original_price": 2700
+      },
+      {
+        "quantity": 30,
+        "unit_price": 180,
+        "total_price": 5400,
+        "original_price": 8100
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "彩虹星鑽",
+    "category": "脂鯉",
+    "size": "3~4",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "images/彩虹星鑽1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 95,
+        "total_price": 95
+      },
+      {
+        "quantity": 20,
+        "unit_price": 70,
+        "total_price": 1400,
+        "original_price": 1900
+      },
+      {
+        "quantity": 30,
+        "unit_price": 40,
+        "total_price": 1200,
+        "original_price": 2850
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "賈拉帕燈",
+    "category": "脂鯉",
+    "size": "3~3.5",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "images/賈拉帕燈1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 200,
+        "total_price": 200
+      },
+      {
+        "quantity": 10,
+        "unit_price": 160,
+        "total_price": 1600,
+        "original_price": 2000
+      },
+      {
+        "quantity": 15,
+        "unit_price": 135,
+        "total_price": 2025,
+        "original_price": 3000
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "雅瑪納牙魚",
+    "category": "脂鯉",
+    "size": "12",
+    "badge": "",
+    "note": "蘇利南產 ， 野生 ，，需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 16000,
+        "total_price": 16000
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "迷鬥子",
+    "category": "迷鰓魚",
+    "size": "2~2.5",
+    "badge": "",
+    "note": "",
+    "image": "images/迷鬥子1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1200,
+        "total_price": 1200
+      }
+    ]
+  },
+  {
+    "id": 105,
     "name": "大耳半月鬥魚（公）",
-    "category": "迷鰓魚/泰國鬥魚",
+    "category": "迷鰓魚",
     "size": "L",
     "badge": "",
     "note": "",
@@ -5708,9 +1875,9 @@
     ]
   },
   {
-    "id": 329,
+    "id": 106,
     "name": "半月鬥魚（公）",
-    "category": "迷鰓魚/泰國鬥魚",
+    "category": "迷鰓魚",
     "size": "L",
     "badge": "",
     "note": "",
@@ -5725,9 +1892,9 @@
     ]
   },
   {
-    "id": 330,
+    "id": 107,
     "name": "半月鬥魚（母）",
-    "category": "迷鰓魚/泰國鬥魚",
+    "category": "迷鰓魚",
     "size": "L",
     "badge": "",
     "note": "",
@@ -5742,9 +1909,9 @@
     ]
   },
   {
-    "id": 331,
+    "id": 108,
     "name": "冠尾鬥魚（公）",
-    "category": "迷鰓魚/泰國鬥魚",
+    "category": "迷鰓魚",
     "size": "L",
     "badge": "",
     "note": "",
@@ -5759,9 +1926,9 @@
     ]
   },
   {
-    "id": 332,
+    "id": 109,
     "name": "馬尾鬥魚（公）",
-    "category": "迷鰓魚/泰國鬥魚",
+    "category": "迷鰓魚",
     "size": "L",
     "badge": "",
     "note": "",
@@ -5776,9 +1943,9 @@
     ]
   },
   {
-    "id": 333,
+    "id": 110,
     "name": "綜合PK鬥魚（公）",
-    "category": "迷鰓魚/泰國鬥魚",
+    "category": "迷鰓魚",
     "size": "L",
     "badge": "",
     "note": "",
@@ -5789,6 +1956,2977 @@
         "quantity": 1,
         "unit_price": 320,
         "total_price": 320
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "七彩霓虹",
+    "category": "彩虹魚/燕子",
+    "size": "3",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 20,
+        "total_price": 600
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "太平洋燕子",
+    "category": "彩虹魚/燕子",
+    "size": "2.5",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 30,
+        "total_price": 600
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "血叉尾黃金珍珠燕子",
+    "category": "彩虹魚/燕子",
+    "size": "1.5~2",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 25,
+        "total_price": 1250
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "藍鑽燕子",
+    "category": "彩虹魚/燕子",
+    "size": "2",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "images/藍鑽燕子1.png",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 135,
+        "total_price": 135
+      },
+      {
+        "quantity": 5,
+        "unit_price": 125,
+        "total_price": 625,
+        "original_price": 675
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "七彩霓虹（野生）",
+    "category": "彩虹魚/燕子",
+    "size": "4",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 170,
+        "total_price": 170
+      },
+      {
+        "quantity": 5,
+        "unit_price": 150,
+        "total_price": 750,
+        "original_price": 850
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "白帆塔瓦美人",
+    "category": "彩虹魚/燕子",
+    "size": "4",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 600,
+        "total_price": 600
+      },
+      {
+        "quantity": 5,
+        "unit_price": 535,
+        "total_price": 2675,
+        "original_price": 3000
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "石美人",
+    "category": "彩虹魚/燕子",
+    "size": "5",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 45,
+        "total_price": 45
+      },
+      {
+        "quantity": 5,
+        "unit_price": 40,
+        "total_price": 200,
+        "original_price": 225
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "紅尾美人",
+    "category": "彩虹魚/燕子",
+    "size": "7",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 25,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "紅鰭藍帶美人",
+    "category": "彩虹魚/燕子",
+    "size": "3",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 50,
+        "total_price": 1500
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "紅鰭藍帶美人",
+    "category": "彩虹魚/燕子",
+    "size": "4",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 70,
+        "total_price": 1400
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "紅鰭藍帶美人",
+    "category": "彩虹魚/燕子",
+    "size": "5",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 100,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "黃金美人",
+    "category": "彩虹魚/燕子",
+    "size": "3",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 50,
+        "total_price": 1500
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "黃金美人",
+    "category": "彩虹魚/燕子",
+    "size": "5",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 85,
+        "total_price": 1700
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "圓身電光美人",
+    "category": "彩虹魚/燕子",
+    "size": "2",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 60,
+        "total_price": 1200
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "電光美人",
+    "category": "彩虹魚/燕子",
+    "size": "3",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 10,
+        "total_price": 300
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "電光美人",
+    "category": "彩虹魚/燕子",
+    "size": "4",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 15,
+        "total_price": 450
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "燕子美人",
+    "category": "彩虹魚/燕子",
+    "size": "3",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 20,
+        "total_price": 600
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "藍美人",
+    "category": "彩虹魚/燕子",
+    "size": "3",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 35,
+        "total_price": 1050
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "藍美人",
+    "category": "彩虹魚/燕子",
+    "size": "4",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 50,
+        "total_price": 1500
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "藍美人",
+    "category": "彩虹魚/燕子",
+    "size": "5",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 70,
+        "total_price": 1400
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "藍美人",
+    "category": "彩虹魚/燕子",
+    "size": "6",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 95,
+        "total_price": 1900
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "蘇西美人",
+    "category": "彩虹魚/燕子",
+    "size": "9",
+    "badge": "",
+    "note": "量多優惠",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 600,
+        "total_price": 600
+      },
+      {
+        "quantity": 5,
+        "unit_price": 550,
+        "total_price": 2750,
+        "original_price": 3000
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "熊貓異形（L046）",
+    "category": "異型",
+    "size": "3",
+    "badge": "",
+    "note": "需提前預訂、2隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 2,
+        "unit_price": 2135,
+        "total_price": 4270
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "黃金達摩（L014）",
+    "category": "異型",
+    "size": "22~23",
+    "badge": "",
+    "note": "需提前預訂，野生",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 8000,
+        "total_price": 8000
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "皇冠直昇機",
+    "category": "異型",
+    "size": "3",
+    "badge": "",
+    "note": "15隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 15,
+        "unit_price": 55,
+        "total_price": 825
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "紅色直昇機",
+    "category": "異型",
+    "size": "5",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 160,
+        "total_price": 800
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "黃金直昇機",
+    "category": "異型",
+    "size": "5",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 470,
+        "total_price": 2350
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "印度白斑馬",
+    "category": "野生蝦",
+    "size": "L",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "images/印度白斑馬1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 50,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "印度斑馬",
+    "category": "野生蝦",
+    "size": "L",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 30,
+        "total_price": 600
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "印度綠米蝦",
+    "category": "野生蝦",
+    "size": "L",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 15,
+        "total_price": 450
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "巨人網球蝦",
+    "category": "野生蝦",
+    "size": "4~5",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "images/巨人網球蝦1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 300,
+        "total_price": 1500
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "白帶匙指蝦（蜜蜂網球蝦）",
+    "category": "野生蝦",
+    "size": "3~5",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "images/白帶匙指蝦（蜜蜂網球蝦）1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 600,
+        "total_price": 1800
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "白帶匙指蝦（蜜蜂網球蝦）",
+    "category": "野生蝦",
+    "size": "1~2",
+    "badge": "",
+    "note": "",
+    "image": "images/白帶匙指蝦（蜜蜂網球蝦）1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 500,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "石紋匙指蝦（石紋網球蝦）",
+    "category": "野生蝦",
+    "size": "4~6",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "images/石紋匙指蝦（石紋網球蝦）1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 100,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "石紋匙指蝦（石紋網球蝦）",
+    "category": "野生蝦",
+    "size": "2~3",
+    "badge": "",
+    "note": "",
+    "image": "images/石紋匙指蝦（石紋網球蝦）1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 70,
+        "total_price": 70
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "西瓜蝦（細額沼蝦）",
+    "category": "野生蝦",
+    "size": "3~5",
+    "badge": "",
+    "note": "",
+    "image": "images/西瓜蝦（細額沼蝦）.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 400,
+        "total_price": 400
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "name": "巧克力蝦（A級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "images/巧克力蝦（A級）.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 15,
+        "total_price": 750
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "金背黃金米蝦（A級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "特大、50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 15,
+        "total_price": 750
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "香吉士（A級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "雪球蝦（A級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "黃金米蝦（A級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "極火蝦",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "特級、50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "綠米蝦（A級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 15,
+        "total_price": 750
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "name": "綠翡翠",
+    "category": "新米蝦",
+    "size": "L",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 15,
+        "total_price": 750
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "綠翡翠",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 15,
+        "total_price": 750
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "name": "藍絲絨（A級）",
+    "category": "新米蝦",
+    "size": "L",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "name": "藍絲絨（A級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "藍絲絨（S級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 20,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "name": "紅琉璃（A級）",
+    "category": "新米蝦",
+    "size": "XL",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "name": "尤里西斯",
+    "category": "稻田魚",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 155,
+        "total_price": 775
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "name": "紅白稻田魚",
+    "category": "稻田魚",
+    "size": "2",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 85,
+        "total_price": 850
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "name": "黑拉美",
+    "category": "稻田魚",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 185,
+        "total_price": 925
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "name": "印度女王燈",
+    "category": "稻田魚",
+    "size": "2",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "name": "海南花尾青鱂",
+    "category": "稻田魚",
+    "size": "3",
+    "badge": "",
+    "note": "",
+    "image": "images/海南花尾青鱂1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 310,
+        "total_price": 310
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "name": "日本禿頭鯊",
+    "category": "蝦虎/塘鱧",
+    "size": "5~6",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "images/日本禿頭鯊.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 70,
+        "total_price": 350
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "name": "日本禿頭鯊",
+    "category": "蝦虎/塘鱧",
+    "size": "7~8",
+    "badge": "",
+    "note": "",
+    "image": "images/日本禿頭鯊.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 115,
+        "total_price": 115
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "name": "犬首禿頭鯊",
+    "category": "蝦虎/塘鱧",
+    "size": "7",
+    "badge": "",
+    "note": "",
+    "image": "images/犬首禿頭鯊1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 780,
+        "total_price": 780
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "name": "末日黃瓜蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "3~4",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "images/末日黃瓜蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 780,
+        "total_price": 2340
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "name": "安妮枝牙蝦虎－公",
+    "category": "蝦虎/塘鱧",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "images/安妮枝牙蝦虎－公1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 560,
+        "total_price": 2800
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "name": "西非綠斑馬禿頭鯊",
+    "category": "蝦虎/塘鱧",
+    "size": "5",
+    "badge": "",
+    "note": "",
+    "image": "images/西非綠斑馬禿頭鯊1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1735,
+        "total_price": 1735
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "name": "所羅門韌蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "5",
+    "badge": "",
+    "note": "",
+    "image": "images/所羅門韌蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 3335,
+        "total_price": 3335
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "name": "美麗韌蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "3~4",
+    "badge": "",
+    "note": "",
+    "image": "images/美麗韌蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 780,
+        "total_price": 780
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "name": "紋面韌蝦虎－公",
+    "category": "蝦虎/塘鱧",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/紋面韌蝦虎－公1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2670,
+        "total_price": 2670
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "name": "深黑枝牙蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "5",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "images/深黑枝牙蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 890,
+        "total_price": 2670
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "name": "紫身枝牙蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "3~4",
+    "badge": "",
+    "note": "（印尼產）",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 560,
+        "total_price": 560
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "name": "菲律賓藍天使",
+    "category": "蝦虎/塘鱧",
+    "size": "7~8",
+    "badge": "",
+    "note": "",
+    "image": "images/菲律賓藍天使1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2670,
+        "total_price": 2670
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "name": "黑金枝牙蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "3",
+    "badge": "",
+    "note": "",
+    "image": "images/黑金枝牙蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 935,
+        "total_price": 935
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "name": "溪鱧",
+    "category": "蝦虎/塘鱧",
+    "size": "3~5",
+    "badge": "",
+    "note": "需提前預訂",
+    "image": "images/溪鱧1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 270,
+        "total_price": 270
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "name": "溪鱧",
+    "category": "蝦虎/塘鱧",
+    "size": "9 up",
+    "badge": "",
+    "note": "",
+    "image": "images/溪鱧1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1115,
+        "total_price": 1115
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "name": "寬帶祼身蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "3",
+    "badge": "",
+    "note": "",
+    "image": "images/寬帶祼身蝦虎.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 160,
+        "total_price": 160
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "name": "諸神島枝牙蝦虎－公",
+    "category": "蝦虎/塘鱧",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/諸神島枝牙蝦虎－公1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 5335,
+        "total_price": 5335
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "name": "環帶黃瓜蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "4~8",
+    "badge": "",
+    "note": "",
+    "image": "images/環帶黃瓜蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 400,
+        "total_price": 400
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "name": "賽魯伊天使",
+    "category": "蝦虎/塘鱧",
+    "size": "8",
+    "badge": "",
+    "note": "",
+    "image": "images/賽魯伊天使1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1115,
+        "total_price": 1115
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "name": "美艷枝牙蝦虎－公",
+    "category": "蝦虎/塘鱧",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/美艷枝牙蝦虎－公1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2000,
+        "total_price": 2000
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "name": "美艷枝牙蝦虎－母",
+    "category": "蝦虎/塘鱧",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1890,
+        "total_price": 1890
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "name": "奧氏雷蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "4",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1600,
+        "total_price": 1600
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "name": "安達曼韌蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "4",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2135,
+        "total_price": 2135
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "name": "尾斑舌塘鱧",
+    "category": "蝦虎/塘鱧",
+    "size": "3",
+    "badge": "",
+    "note": "",
+    "image": "images/尾斑舌塘鱧1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 225,
+        "total_price": 225
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "name": "花斑小蜜蜂",
+    "category": "蝦虎/塘鱧",
+    "size": "1~2",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "images/花斑小蜜蜂1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 80,
+        "total_price": 800
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "name": "神島硬皮蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "3~6",
+    "badge": "",
+    "note": "（印尼產）",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 160,
+        "total_price": 160
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "name": "神島硬皮蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "8~10",
+    "badge": "",
+    "note": "（印尼產）",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 445,
+        "total_price": 445
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "name": "淺色項冠蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "5",
+    "badge": "",
+    "note": "",
+    "image": "images/淺色項冠蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 4000,
+        "total_price": 4000
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "name": "華氏芒蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "2~5",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 4000,
+        "total_price": 4000
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "name": "撒旦鴿鯊",
+    "category": "蝦虎/塘鱧",
+    "size": "8~10",
+    "badge": "",
+    "note": "",
+    "image": "images/撒旦鴿鯊1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1000,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "name": "越南黃唇吻蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/越南黃唇吻蝦虎.jpeg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1070,
+        "total_price": 1070
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "name": "新紅吻蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "3",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "images/新紅吻蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 535,
+        "total_price": 1605
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "name": "戴氏吻蝦虎（紅型）",
+    "category": "蝦虎/塘鱧",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/戴氏吻蝦虎（紅型）1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 780,
+        "total_price": 780
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "name": "菲律賓卡氏吻蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "5~6",
+    "badge": "",
+    "note": "",
+    "image": "images/菲律賓卡氏吻蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1000,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "name": "湖南蜜蜂吻蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "6",
+    "badge": "",
+    "note": "",
+    "image": "images/湖南蜜蜂吻蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1070,
+        "total_price": 1070
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "name": "金喉迷宮吻蝦虎－公",
+    "category": "蝦虎/塘鱧",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/金喉迷宮吻蝦虎－公1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1115,
+        "total_price": 1115
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "桂花吻蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "4",
+    "badge": "",
+    "note": "",
+    "image": "images/桂花吻蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 445,
+        "total_price": 445
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "name": "越南龍吻蝦虎",
+    "category": "蝦虎/塘鱧",
+    "size": "4",
+    "badge": "",
+    "note": "",
+    "image": "images/越南龍吻蝦虎1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1225,
+        "total_price": 1225
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "name": "七彩塘鱧",
+    "category": "蝦虎/塘鱧",
+    "size": "3",
+    "badge": "",
+    "note": "15隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 15,
+        "unit_price": 70,
+        "total_price": 1050
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "name": "七彩塘鱧",
+    "category": "蝦虎/塘鱧",
+    "size": "4",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 90,
+        "total_price": 900
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "name": "橙腹侏儒塘鱧",
+    "category": "蝦虎/塘鱧",
+    "size": "3",
+    "badge": "",
+    "note": "",
+    "image": "images/橙腹侏儒塘鱧1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 360,
+        "total_price": 360
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "name": "巧克力螺",
+    "category": "螺",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂、50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 25,
+        "total_price": 1250
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "name": "指環蜑螺",
+    "category": "螺",
+    "size": "S",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "images/指環蜑螺1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 15,
+        "total_price": 300
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "name": "黑金剛螺",
+    "category": "螺",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂、50隻才出貨",
+    "image": "images/黑金剛螺1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 20,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "name": "蜜蜂角螺",
+    "category": "螺",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂、50隻才出貨",
+    "image": "images/蜜蜂角螺1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 20,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "name": "羊角螺",
+    "category": "螺",
+    "size": "M",
+    "badge": "",
+    "note": "50隻才出貨",
+    "image": "images/羊角螺1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "name": "黃金螺",
+    "category": "螺",
+    "size": "S",
+    "badge": "",
+    "note": "30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 10,
+        "total_price": 300
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "name": "瘤蜷",
+    "category": "螺",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂、50隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 10,
+        "total_price": 500
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "name": "橙兔螺",
+    "category": "螺",
+    "size": "M",
+    "badge": "",
+    "note": "需提前預訂、50隻才出貨",
+    "image": "images/橙兔螺1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 50,
+        "unit_price": 80,
+        "total_price": 4000
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "name": "火山鰟鮍－公",
+    "category": "鯉科魚",
+    "size": "5",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "images/火山鰟鮍－公1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 600,
+        "total_price": 1800
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "name": "台灣石鮒",
+    "category": "鯉科魚",
+    "size": "4",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 35,
+        "total_price": 700
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "name": "紅邊鰟鮍",
+    "category": "鯉科魚",
+    "size": "4",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 200,
+        "total_price": 1000
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "name": "越南鱊",
+    "category": "鯉科魚",
+    "size": "6~7",
+    "badge": "",
+    "note": "",
+    "image": "images/越南鱊1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 585,
+        "total_price": 585
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "name": "幻彩鏡魚",
+    "category": "鯉科魚",
+    "size": "3",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "images/幻彩鏡魚1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 300,
+        "total_price": 1500
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "name": "多彩霓虹",
+    "category": "鯉科魚",
+    "size": "4",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 85,
+        "total_price": 1700
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "name": "林氏細鯽",
+    "category": "鯉科魚",
+    "size": "3",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "images/林氏細鯽1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 85,
+        "total_price": 1700
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "name": "彩虹精靈",
+    "category": "鯉科魚",
+    "size": "5",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 70,
+        "total_price": 1400
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "name": "粗首馬口鱲",
+    "category": "鯉科魚",
+    "size": "5~6",
+    "badge": "",
+    "note": "溪哥",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 50,
+        "total_price": 50
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "name": "菊池氏細鯽",
+    "category": "鯉科魚",
+    "size": "3~4",
+    "badge": "",
+    "note": "20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 75,
+        "total_price": 1500
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "name": "藍線細鯽",
+    "category": "鯉科魚",
+    "size": "4",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "images/藍線細鯽1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 300,
+        "total_price": 1500
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "name": "麗紋細鯽",
+    "category": "鯉科魚",
+    "size": "2",
+    "badge": "",
+    "note": "",
+    "image": "images/麗紋細鯽1.png",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 100,
+        "total_price": 100
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "name": "七星沙岩鯉",
+    "category": "鯉科魚",
+    "size": "8~15",
+    "badge": "",
+    "note": "3隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 1500,
+        "total_price": 4500
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "name": "越南紅貓",
+    "category": "鯉科魚",
+    "size": "7~8",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1800,
+        "total_price": 1800
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "name": "台灣石賓",
+    "category": "鯉科魚",
+    "size": "4~6",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 35,
+        "total_price": 35
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "name": "台灣石賓",
+    "category": "鯉科魚",
+    "size": "6~8",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 70,
+        "total_price": 70
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "name": "高身鯝魚",
+    "category": "鯉科魚",
+    "size": "4~6",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 135,
+        "total_price": 135
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "name": "虹彩光唇魚",
+    "category": "鯉科魚",
+    "size": "8~12",
+    "badge": "",
+    "note": "",
+    "image": "images/虹彩光唇魚1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 650,
+        "total_price": 650
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "name": "金吉羅",
+    "category": "鯉科魚",
+    "size": "13~15",
+    "badge": "",
+    "note": "印度產 ， 野生 ，需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1250,
+        "total_price": 1250
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "name": "古銅吉羅",
+    "category": "鯉科魚",
+    "size": "15",
+    "badge": "",
+    "note": "印度產 ， 野生 ，需提前預訂",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1585,
+        "total_price": 1585
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "name": "白瓷娃娃蟹",
+    "category": "蟹",
+    "size": "M",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "images/白瓷娃娃蟹1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 155,
+        "total_price": 775
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "name": "陶瓷娃娃蟹",
+    "category": "蟹",
+    "size": "M",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "images/陶瓷娃娃蟹1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 80,
+        "total_price": 800
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "name": "黃金蟹",
+    "category": "蟹",
+    "size": "L",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 110,
+        "total_price": 550
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "name": "綠瓷娃娃蟹",
+    "category": "蟹",
+    "size": "M",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "images/綠瓷娃娃蟹1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 155,
+        "total_price": 775
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "name": "熔岩蟹（林投樹蟹）",
+    "category": "蟹",
+    "size": "M",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 80,
+        "total_price": 80
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "name": "大紅木紋",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 375,
+        "total_price": 7500
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "name": "可樂蝦",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 190,
+        "total_price": 3800
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "name": "白蘭花",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 95,
+        "total_price": 2850
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "name": "白襪蝦",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 85,
+        "total_price": 2550
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "name": "乳牛",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 115,
+        "total_price": 3450
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "name": "帝格里虎",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 190,
+        "total_price": 3800
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "name": "星點木紋",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 190,
+        "total_price": 3800
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "name": "紅蘭花",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 150,
+        "total_price": 3000
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "name": "拳擊蝦",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 190,
+        "total_price": 3800
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "name": "迷你藍",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 190,
+        "total_price": 3800
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "name": "斑馬雪蝦",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 20,
+        "total_price": 600
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "name": "黃斑蝦",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 150,
+        "total_price": 3000
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "name": "黃鼻蝦",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 150,
+        "total_price": 3000
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "name": "黃頰蝦",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、20隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 20,
+        "unit_price": 150,
+        "total_price": 3000
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "name": "藍尾蜂",
+    "category": "蘇拉威西蝦",
+    "size": "0.7~1",
+    "badge": "",
+    "note": "需提前預訂、30隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 30,
+        "unit_price": 60,
+        "total_price": 1800
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "name": "方氏吸鰍",
+    "category": "鰍類",
+    "size": "5~6",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "images/方氏吸鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 400,
+        "total_price": 2000
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "name": "台灣纓口鰍",
+    "category": "鰍類",
+    "size": "2~5",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 225,
+        "total_price": 225
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "name": "平舟原纓口鰍",
+    "category": "鰍類",
+    "size": "7~9",
+    "badge": "",
+    "note": "",
+    "image": "images/平舟原纓口鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 670,
+        "total_price": 670
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "name": "青花瓷吸鰍",
+    "category": "鰍類",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/青花瓷吸鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 670,
+        "total_price": 670
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "name": "雲紋葫蘆琵琶",
+    "category": "鰍類",
+    "size": "5",
+    "badge": "",
+    "note": "",
+    "image": "images/雲紋葫蘆琵琶1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1070,
+        "total_price": 1070
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "name": "廣西秉氏吸鰍",
+    "category": "鰍類",
+    "size": "6",
+    "badge": "",
+    "note": "",
+    "image": "images/廣西秉氏吸鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 800,
+        "total_price": 800
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "name": "海南熊貓爬岩鰍",
+    "category": "鰍類",
+    "size": "3~4",
+    "badge": "",
+    "note": "",
+    "image": "images/海南熊貓爬岩鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 225,
+        "total_price": 225
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "name": "馬哈坎原吸鰍",
+    "category": "鰍類",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1200,
+        "total_price": 1200
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "name": "金環鼠",
+    "category": "鰍類",
+    "size": "6~8",
+    "badge": "",
+    "note": "",
+    "image": "images/金環鼠1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 780,
+        "total_price": 780
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "name": "黑金環鼠",
+    "category": "鰍類",
+    "size": "6~7",
+    "badge": "",
+    "note": "5隻才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 5,
+        "unit_price": 560,
+        "total_price": 2800
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "name": "四川虎紋吸鰍",
+    "category": "鰍類",
+    "size": "5~6",
+    "badge": "",
+    "note": "",
+    "image": "images/四川虎紋吸鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 1070,
+        "total_price": 1070
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "name": "沈氏間爬岩鰍",
+    "category": "鰍類",
+    "size": "4",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 535,
+        "total_price": 535
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "name": "金沙鰍",
+    "category": "鰍類",
+    "size": "8~10",
+    "badge": "",
+    "note": "",
+    "image": "images/金沙鰍1.png",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2670,
+        "total_price": 2670
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "name": "短身金沙鰍",
+    "category": "鰍類",
+    "size": "7~8",
+    "badge": "",
+    "note": "",
+    "image": "images/短身金沙鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2225,
+        "total_price": 2225
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "name": "越南華吸鰍",
+    "category": "鰍類",
+    "size": "4~5",
+    "badge": "",
+    "note": "",
+    "image": "images/越南華吸鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 780,
+        "total_price": 780
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "name": "越南小華爬岩鰍",
+    "category": "鰍類",
+    "size": "5~6",
+    "badge": "",
+    "note": "",
+    "image": "images/越南小華爬岩鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 625,
+        "total_price": 625
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "name": "峨嵋山吸鰍",
+    "category": "鰍類",
+    "size": "6~8",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 760,
+        "total_price": 760
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "name": "花格平鰭鰍",
+    "category": "鰍類",
+    "size": "6~7",
+    "badge": "",
+    "note": "",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 780,
+        "total_price": 780
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "name": "中華花鰍",
+    "category": "鰍類",
+    "size": "2~4",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "images/中華花鰍.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 45,
+        "total_price": 450
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "name": "中華花鰍",
+    "category": "鰍類",
+    "size": "5~8",
+    "badge": "",
+    "note": "10隻才出貨",
+    "image": "images/中華花鰍.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 10,
+        "unit_price": 70,
+        "total_price": 700
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "name": "疣背小條鰍（翠綠紅尾鰍）",
+    "category": "鰍類",
+    "size": "5~7",
+    "badge": "",
+    "note": "",
+    "image": "images/疣背小條鰍（翠綠紅尾鰍）1.png",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 845,
+        "total_price": 845
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "name": "雲南粉紅鰍",
+    "category": "鰍類",
+    "size": "5",
+    "badge": "",
+    "note": "",
+    "image": "images/雲南粉紅鰍1.jpg",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 1,
+        "unit_price": 2400,
+        "total_price": 2400
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "name": "黃金紅圓尾（對）",
+    "category": "鱂魚",
+    "size": "3~5",
+    "badge": "",
+    "note": "3對才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 220,
+        "total_price": 660
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "name": "黃金藍圓尾（對）",
+    "category": "鱂魚",
+    "size": "3~5",
+    "badge": "",
+    "note": "3對才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 220,
+        "total_price": 660
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "name": "黃彩鱂（對）",
+    "category": "鱂魚",
+    "size": "3~5",
+    "badge": "",
+    "note": "3對才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 220,
+        "total_price": 660
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "name": "黑寶貝（對）",
+    "category": "鱂魚",
+    "size": "3~5",
+    "badge": "",
+    "note": "3對才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 220,
+        "total_price": 660
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "name": "漂亮寶貝（對）",
+    "category": "鱂魚",
+    "size": "3~5",
+    "badge": "",
+    "note": "3對才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 220,
+        "total_price": 660
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "name": "藍色精靈（對）",
+    "category": "鱂魚",
+    "size": "3~5",
+    "badge": "",
+    "note": "3對才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 220,
+        "total_price": 660
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "name": "藍彩鱂（對）",
+    "category": "鱂魚",
+    "size": "3~5",
+    "badge": "",
+    "note": "3對才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 220,
+        "total_price": 660
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "name": "藍圓尾（對）",
+    "category": "鱂魚",
+    "size": "3~5",
+    "badge": "",
+    "note": "3對才出貨",
+    "image": "",
+    "soldOut": 0,
+    "tiers": [
+      {
+        "quantity": 3,
+        "unit_price": 220,
+        "total_price": 660
       }
     ]
   }
